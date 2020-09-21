@@ -6,10 +6,10 @@
  *              2017-05-10: update from unicode-table project (github.com/unicode-table/unicode-table-data)
  */
 
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 STRINGTABLE
 BEGIN
-    0 " 空"
+    0 " 空位"
     1 " 報頭開始"
     2 " 正文開始"
     3 " 正文結束"
