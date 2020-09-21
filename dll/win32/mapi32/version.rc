@@ -86,7 +86,7 @@
     #include "lang/ru-RU.rc"
 #endif
 #ifdef LANGUAGE_SL_SI
-    #include "lang/si-SI.rc"
+    #include "lang/sl-SI.rc"
 #endif
 #ifdef LANGUAGE_SQ_AL
     #include "lang/sq-AL.rc"
