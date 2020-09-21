@@ -89,7 +89,7 @@
     #include "lang/si-SI.rc"
 #endif
 #ifdef LANGUAGE_SQ_AL
-    #include "lang/sq_AL.rc"
+    #include "lang/sq-AL.rc"
 #endif
 #ifdef LANGUAGE_TR_TR
     #include "lang/tr-TR.rc"
