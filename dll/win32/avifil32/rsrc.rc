@@ -124,5 +124,5 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
     #include "lang/avifile_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/avifile_Zh.rc"
+    #include "lang/avifile_Zhtw.rc"
 #endif

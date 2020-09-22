@@ -1,6 +1,7 @@
 /*
- * Copyright 2005 Dmitry Timoshkov
- * Copyright 2016 Henry Tang Ih
+ * oleaut32 (Simplified and Traditional Chinese Resources)
+ *
+ * Copyright 2008 Hongbo Ni <hongbo.at.njstar.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -20,18 +21,14 @@
 /* Chinese text is encoded in UTF-8 */
 #pragma code_page(65001)
 
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
-
-STRINGTABLE
-{
-    IDS_NAME "MS-CRAM"
-    IDS_DESCRIPTION "Wine 视频 1 视频编解码器"
-}
-
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
 STRINGTABLE
 {
-    IDS_NAME "MS-CRAM"
-    IDS_DESCRIPTION "Wine 視頻 1 視頻編解碼器"
+  IDS_TRUE  "真"
+  IDS_FALSE "假"
+  IDS_YES   "是"
+  IDS_NO    "否"
+  IDS_ON    "開"
+  IDS_OFF   "關"
 }

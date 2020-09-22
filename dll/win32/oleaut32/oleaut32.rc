@@ -107,7 +107,10 @@
     #include "lang/oleaut32_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/oleaut32_Zh.rc"
+    #include "lang/oleaut32_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/oleaut32_Zhtw.rc"
 #endif
 
 /*

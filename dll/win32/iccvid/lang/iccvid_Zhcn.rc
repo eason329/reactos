@@ -1,5 +1,5 @@
 /*
- * Simplified and Traditional Chinese Resources for iccvid
+ * Simplified Chinese Resources for iccvid
  *
  * Copyright (C) 2016 Henry Tang Ih
  *
@@ -27,12 +27,4 @@ STRINGTABLE
 {
     IDS_NAME "Cinepak 视频编解码器"
     IDS_DESCRIPTION "Cinepak 视频编解码器"
-}
-
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
-
-STRINGTABLE
-{
-    IDS_NAME "Cinepak 視頻編解碼器"
-    IDS_DESCRIPTION "Cinepak 視頻編解碼器"
 }

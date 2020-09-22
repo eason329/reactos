@@ -123,7 +123,10 @@
     #include "lang/wininet_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/wininet_Zh.rc"
+    #include "lang/wininet_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_CN
+    #include "lang/wininet_Zhtw.rc"
 #endif
 
 #include "version.rc"

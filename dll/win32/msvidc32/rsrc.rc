@@ -85,5 +85,8 @@
     #include "lang/msvidc32_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/msvidc32_Zh.rc"
+    #include "lang/msvidc32_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/msvidc32_Zhtw.rc"
 #endif

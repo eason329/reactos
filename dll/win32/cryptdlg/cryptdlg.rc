@@ -81,8 +81,8 @@
     #include "lang/cryptdlg_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/cryptdlg_Zh.rc"
+    #include "lang/cryptdlg_Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/cryptdlg_Zh.rc"
+    #include "lang/cryptdlg_Zhtw.rc"
 #endif

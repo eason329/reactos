@@ -38,20 +38,3 @@ STRINGTABLE
     IDS_NOTICE_NUM "注意到人数="
     IDS_NOTICE_TEXT "请注意文本="
 }
-
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
-
-STRINGTABLE
-{
-    IDS_CERT_POLICY "憑證原則"
-    IDS_POLICY_ID "策略識別碼: "
-    IDS_POLICY_QUALIFIER_INFO "政策限定詞資訊"
-    IDS_POLICY_QUALIFIER_ID "政策限定詞 ID="
-    IDS_CPS "CPS"/*認證做法說明 */
-    IDS_USER_NOTICE "使用者通知"
-    IDS_QUALIFIER "限定詞"
-    IDS_NOTICE_REF "請注意參考"
-    IDS_ORGANIZATION "組織="
-    IDS_NOTICE_NUM "注意到人數="
-    IDS_NOTICE_TEXT "請注意文本="
-}

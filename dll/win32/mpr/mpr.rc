@@ -100,6 +100,8 @@
     #include "lang/mpr_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/mpr_Zh.rc"
+    #include "lang/mpr_Zhcn.rc"
 #endif
-
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/mpr_Zhtw.rc"
+#endif

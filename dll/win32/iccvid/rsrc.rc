@@ -90,5 +90,8 @@
     #include "lang/iccvid_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/iccvid_Zh.rc"
+    #include "lang/iccvid_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/iccvid_Zhtw.rc"
 #endif

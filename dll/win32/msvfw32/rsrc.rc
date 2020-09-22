@@ -91,5 +91,8 @@
     #include "lang/msvfw32_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/msvfw32_Zh.rc"
+    #include "lang/msvfw32_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/msvfw32_Zhtw.rc"
 #endif

@@ -98,8 +98,8 @@ IDB_BANNER BITMAP "res/banner.bmp"
     #include "lang/credui_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/credui_Zh.rc"
+    #include "lang/credui_Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/credui_Zh.rc"
+    #include "lang/credui_Zhtw.rc"
 #endif

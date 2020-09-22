@@ -87,8 +87,8 @@
     #include "lang/crypt32_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/crypt32_Zh.rc"
+    #include "lang/crypt32_Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/crypt32_Zh.rc"
+    #include "lang/crypt32_Zhtw.rc"
 #endif

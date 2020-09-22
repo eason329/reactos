@@ -1,5 +1,5 @@
 /*
- * Credentials UI (Simplified and Traditional Chinese Resource)
+ * Credentials UI (Traditional Chinese Resource)
  *
  * Copyright 2008 Hongbo Ni <hongbo.at.njstar.com>
  * Traditional translation sync to Wine by Aobi Chan CL 2020 <eason066@gmail.com>
@@ -21,36 +21,6 @@
 
 /* Chinese text is encoded in UTF-8 */
 #pragma code_page(65001)
-
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
-
-STRINGTABLE
-{
-    IDS_TITLEFORMAT     "连接到 %s"
-    IDS_MESSAGEFORMAT   "正在连接到 %s"
-    IDS_INCORRECTPASSWORDTITLE  "登录失败"
-    IDS_INCORRECTPASSWORD       "请确认你输入的用户名和密码\n是否正确."
-    IDS_CAPSLOCKONTITLE "大写锁定开着"
-    IDS_CAPSLOCKON      "开着大写锁定可能导致你输入错误的密码."
-}
-
-IDD_CREDDIALOG DIALOGEX  0, 0, 213, 149
-STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
-FONT 9, "宋体"
-BEGIN
-    CONTROL         IDB_BANNER,-1,"Static",SS_BITMAP | SS_CENTERIMAGE,0,
-                    0,213,37
-    LTEXT           "",IDC_MESSAGE,8,48,199,8,NOT WS_GROUP
-    LTEXT           "用户名(&U):",-1,8,62,72,12,SS_CENTERIMAGE
-    CONTROL         "",IDC_USERNAME,"ComboBoxEx32",CBS_DROPDOWN |
-                    CBS_NOINTEGRALHEIGHT | WS_TABSTOP,80,62,126,87
-    LTEXT           "密码(&P):",-1,8,80,72,12,SS_CENTERIMAGE
-    EDITTEXT        IDC_PASSWORD,80,80,126,12,ES_PASSWORD | ES_AUTOHSCROLL
-    CONTROL         "记住我的密码(&R)",IDC_SAVE,"Button",
-                    BS_AUTOCHECKBOX | WS_TABSTOP,80,98,126,12
-    DEFPUSHBUTTON   "确定",IDOK,97,128,50,14
-    PUSHBUTTON      "取消",IDCANCEL,156,128,50,14
-END
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 

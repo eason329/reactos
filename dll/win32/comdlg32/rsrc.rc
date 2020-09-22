@@ -147,8 +147,8 @@
     #include "lang/cdlg_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/cdlg_Zh.rc"
+    #include "lang/cdlg_Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/cdlg_Zh.rc"
+    #include "lang/cdlg_Zhtw.rc"
 #endif

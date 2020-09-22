@@ -94,7 +94,10 @@
     #include "lang/winmm_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/winmm_Zh.rc"
+    #include "lang/winmm_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/winmm_Zhtw.rc"
 #endif
 
 /* do not add NLS specific stuff below that line */

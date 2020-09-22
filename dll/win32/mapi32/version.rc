@@ -98,8 +98,8 @@
     #include "lang/Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/Zh.rc"
+    #include "lang/Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/Tw.rc"
+    #include "lang/Zhtw.rc"
 #endif

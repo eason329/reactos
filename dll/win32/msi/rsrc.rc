@@ -77,5 +77,8 @@
     #include "lang/msi_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/msi_Zh.rc"
+    #include "lang/msi_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/msi_Zhtw.rc"
 #endif

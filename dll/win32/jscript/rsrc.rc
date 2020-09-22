@@ -102,8 +102,8 @@
     #include "lang/jscript_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/jscript_Zh.rc"
+    #include "lang/jscript_Zhcn.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/jscript_Zh.rc"
+    #include "lang/jscript_Zhtw.rc"
 #endif

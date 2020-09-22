@@ -105,5 +105,8 @@
     #include "lang/msrle_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/msrle_Zh.rc"
+    #include "lang/msrle_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/msrle_Zhtw.rc"
 #endif
