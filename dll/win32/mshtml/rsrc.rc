@@ -115,6 +115,9 @@
 #ifdef LANGUAGE_ZH_CN
     #include "lang/Zh.rc"
 #endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/Zh.rc"
+#endif
 
 LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 

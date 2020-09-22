@@ -104,3 +104,6 @@
 #ifdef LANGUAGE_ZH_CN
     #include "lang/msacm_Zh.rc"
 #endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/msacm_Zh.rc"
+#endif

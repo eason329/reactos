@@ -101,5 +101,5 @@ IDB_BANNER BITMAP "res/banner.bmp"
     #include "lang/credui_Zh.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/credui_Tw.rc"
+    #include "lang/credui_Zh.rc"
 #endif

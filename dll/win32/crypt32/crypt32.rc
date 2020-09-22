@@ -90,5 +90,5 @@
     #include "lang/crypt32_Zh.rc"
 #endif
 #ifdef LANGUAGE_ZH_TW
-    #include "lang/crypt32_Tw.rc"
+    #include "lang/crypt32_Zh.rc"
 #endif
