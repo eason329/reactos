@@ -105,5 +105,8 @@
     #include "lang/oledlg_Uk.rc"
 #endif
 #ifdef LANGUAGE_ZH_CN
-    #include "lang/oledlg_Zh.rc"
+    #include "lang/oledlg_Zhcn.rc"
+#endif
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/oledlg_Zhtw.rc"
 #endif
