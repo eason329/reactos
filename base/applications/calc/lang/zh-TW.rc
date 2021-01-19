@@ -1,6 +1,6 @@
-/* Simplified Chinese translation for calc. By Song Fuchang (0xfc) <sfc_0@yahoo.com.cn> */
+/* Traditional Chinese translation by 2021 Aobi Chan CL <eason066@gmail.com> */
 
-LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
 /* Dialogs */
 
@@ -534,7 +534,7 @@ STRINGTABLE
 BEGIN
     IDS_LENGTH_ANGSTROMS "埃"
     IDS_LENGTH_ASTRONOMICAL_UNITS "天文單位"
-    IDS_LENGTH_BARLEYCORNS "巴利肯"
+    IDS_LENGTH_BARLEYCORNS "Barleycorns"
     IDS_LENGTH_CENTIMETERS "厘米"
     IDS_LENGTH_CHAINS_UK "鏈 (英國)"
     IDS_LENGTH_CHI "尺"
@@ -544,9 +544,9 @@ BEGIN
     IDS_LENGTH_FATHOMS "英尋"
     IDS_LENGTH_FATHOMS_HUNGARY "英尋 (匈牙利)"
     IDS_LENGTH_FEET "英尺"
-    IDS_LENGTH_FURLONGS "浪"
+    IDS_LENGTH_FURLONGS "化朗"
     IDS_LENGTH_GAN "杆"
-    IDS_LENGTH_HANDS "掌宽"
+    IDS_LENGTH_HANDS "掌寬"
     IDS_LENGTH_HUNH "Hunh"
     IDS_LENGTH_INCHES "英尺"
     IDS_LENGTH_JA "尺 (韓國)"
@@ -564,15 +564,15 @@ BEGIN
     IDS_LENGTH_MILLIMETERS "毫米"
     IDS_LENGTH_NAUTICAL_MILES "海里"
     IDS_LENGTH_NIEU "Nieu"
-    IDS_LENGTH_PARSECS "Parsecs"
-    IDS_LENGTH_PICAS "Picas"
+    IDS_LENGTH_PARSECS "秒差距"
+    IDS_LENGTH_PICAS "派卡"
     IDS_LENGTH_RI_JAPAN "里 (日本)"
     IDS_LENGTH_RI_KOREA "里 (韓國)"
     IDS_LENGTH_RODS "杆"
     IDS_LENGTH_SAWK "Sawk"
     IDS_LENGTH_SEN "Sen"
     IDS_LENGTH_SHAKU "尺 (日本)"
-    IDS_LENGTH_SPAN "Span"
+    IDS_LENGTH_SPAN "拃"
     IDS_LENGTH_SUN "寸 (日本)"
     IDS_LENGTH_TSUEN "寸"
     IDS_LENGTH_VA "Va"
@@ -657,8 +657,8 @@ BEGIN
     IDS_VOLUME_FLUID_OUNCES_UK "液盎司 (英國)"
     IDS_VOLUME_FLUID_OUNCES_US "液盎司 (美國)"
     IDS_VOLUME_GALLONS_UK "加侖 (英國)"
-    IDS_VOLUME_GALLONS_DRY_US "干量加侖 (美國)"
-    IDS_VOLUME_GALLONS_LIQUID_US "液加侖 (美國)"
+    IDS_VOLUME_GALLONS_DRY_US "乾量加侖 (美國)"
+    IDS_VOLUME_GALLONS_LIQUID_US "濕量加侖 (美國)"
     IDS_VOLUME_GOU "合"
     IDS_VOLUME_HOP "Hop"
     IDS_VOLUME_ICCE "Icce"
@@ -667,11 +667,11 @@ BEGIN
     IDS_VOLUME_MAL "Mal"
     IDS_VOLUME_MILLILITERS "毫升"
     IDS_VOLUME_PINTS_UK "品脱 (英國)"
-    IDS_VOLUME_PINTS_DRY_US "干量品脱 (美國)"
-    IDS_VOLUME_PINTS_LIQUID_US "液品脱 (美國)"
+    IDS_VOLUME_PINTS_DRY_US "乾量品脱 (美國)"
+    IDS_VOLUME_PINTS_LIQUID_US "濕量品脱 (美國)"
     IDS_VOLUME_QUARTS_UK "夸脫 (英國)"
-    IDS_VOLUME_QUARTS_DRY_US "干量夸脫 (美國)"
-    IDS_VOLUME_QUARTS_LIQUID_US "液夸脫 (美國)"
+    IDS_VOLUME_QUARTS_DRY_US "乾量夸脫 (美國)"
+    IDS_VOLUME_QUARTS_LIQUID_US "濕量夸脫 (美國)"
     IDS_VOLUME_SEKI "Seki"
     IDS_VOLUME_SYOU "Syou"
     IDS_VOLUME_TANANLOUNG "Tananloung"
