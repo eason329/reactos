@@ -2,7 +2,7 @@
  * Chinese language support
  *
  * Copyright 2010 Cheer Xiao <xiaqqaix.at.gmail.com>
- * Copyright 2021 Aobi Chan CL <eason066.at.gmail.com>
+ * Translation sync to Wine by 2021 Aobi Chan CL <eason066.at.gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -35,5 +35,5 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
 STRINGTABLE
 {
-    IDS_FAILED, "無法啟動 Wordpad"
+    IDS_FAILED, "啟動 Wordpad 時失敗"
 }
