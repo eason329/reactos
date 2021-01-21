@@ -97,3 +97,6 @@ BluetoothClassName="Bluetooth Radyoları"
 
 [Strings.0804]
 BTUSB.DeviceDesc="通用 USB 蓝牙无线电"
+
+[Strings.0404]
+BTUSB.DeviceDesc="通用 USB 藍牙無線電"

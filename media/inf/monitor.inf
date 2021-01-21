@@ -111,3 +111,8 @@ PnPMonitor.DeviceDesc = "Tak ve Çalıştır Göstergeç"
 StdMfg = "(标准监视器类型)"
 DefaultMonitor.DeviceDesc = "默认监视器"
 PnPMonitor.DeviceDesc = "即插即用监视器"
+
+[Strings.0404]
+StdMfg = "(標準監視器類型)"
+DefaultMonitor.DeviceDesc = "預設監視器"
+PnPMonitor.DeviceDesc = "隨插即用監視器"

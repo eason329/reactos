@@ -95,7 +95,7 @@ STRINGTABLE
 BEGIN
     IDS_HELP_CMD_DESC_ACTIVE "ACTIVE\t\t- 所選將磁碟分割標記為活動。\n"
     IDS_HELP_CMD_DESC_ADD "ADD\t\t- 將映象添加到一個簡單磁碟區。\n"
-    IDS_HELP_CMD_DESC_ASSIGN "ASSIGN\t\t- 為所選的磁碟區分配一個磁碟代號或裝入點。\n"
+    IDS_HELP_CMD_DESC_ASSIGN "ASSIGN\t\t- 為所選的磁碟區分配一個代號或裝入點。\n"
     IDS_HELP_CMD_DESC_ATTACH "ATTACH\t\t- 附加的虛擬磁碟檔案。\n"
     IDS_HELP_CMD_DESC_ATTRIBUTES "ATTRIBUTES\t- 操縱磁碟區或磁碟的屬性。\n"
     IDS_HELP_CMD_DESC_AUTOMOUNT "AUTOMOUNT\t- 啟用和停用基本磁碟區的自動裝入。\n"
@@ -122,7 +122,7 @@ BEGIN
     IDS_HELP_CMD_DESC_ONLINE "ONLINE\t\t- 把目前標記為離線的物件設成連線。\n"
     IDS_HELP_CMD_DESC_RECOVER "RECOVER\t\t- 重新整理選取封裝中所有磁碟的狀態，\n\t\t  嘗試在無效封裝中的磁碟復原，並重新同步具有過時網狀\n\t\t  磁碟區或同位檢查資料的鏡像磁碟區與 RAID5 磁碟區。\n"
     IDS_HELP_CMD_DESC_REM "REM\t\t- 無反應。這用來註解指令碼。\n"
-    IDS_HELP_CMD_DESC_REMOVE "REMOVE\t\t- 刪除磁碟代號或裝載點指派。\n"
+    IDS_HELP_CMD_DESC_REMOVE "REMOVE\t\t- 刪除磁碟區代號或裝載點指派。\n"
     IDS_HELP_CMD_DESC_REPAIR "REPAIR\t\t- 修復失敗的成員與 RAID 5 磁碟區。\n"
     IDS_HELP_CMD_DESC_RESCAN "RESCAN\t\t- 重新掃描電腦，查找磁碟和磁碟區。\n"
     IDS_HELP_CMD_DESC_RETAIN "RETAIN\t\t- 在簡單磁碟區下放置一個保存磁碟分割。\n"
