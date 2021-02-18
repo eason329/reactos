@@ -1003,7 +1003,7 @@ UniATA_Name = "標準 ATA 驅動程式"
 PCI\CC_0101.DeviceDesc  = "雙通道 PCI BusMaster IDE 控制器"
 PCI\CC_0104.DeviceDesc  = "標準 RAID IDE 控制器"
 PCI\CC_0105.DeviceDesc  = "標準 ATA 控制器"
-PCI\CC_0106.DeviceDesc  = "標準串行 ATA 控制器"
+PCI\CC_0106.DeviceDesc  = "標準序列 ATA 控制器"
 
 [Strings.0405]
 HDCClassName = "IDE řadiče ATA/ATAPI"

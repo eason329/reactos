@@ -68,6 +68,12 @@ SCSIClassName = "SCSI and RAID Controllers"
 GenericMfg = "(Standard SCSI and RAID controllers)"
 PCI\VEN_104B&CC_0100.DeviceDesc = "BusLogic SCSI Controller"
 
+[Strings.0404]
+SCSIClassName = "SCSI / RAID 控制器"
+
+GenericMfg = "(標準 SCSI / RAID 控制器)"
+PCI\VEN_104B&CC_0100.DeviceDesc = "BusLogic SCSI 控制器"
+
 [Strings.0405]
 SCSIClassName = "SCSI a RAID řadiče"
 
