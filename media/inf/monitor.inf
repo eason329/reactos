@@ -57,6 +57,13 @@ StdMfg = "(Standard monitor types)"
 DefaultMonitor.DeviceDesc = "Default Monitor"
 PnPMonitor.DeviceDesc = "Plug and Play Monitor"
 
+[Strings.0404]
+MonitorClassName = "顯示器"
+
+StdMfg = "(標準顯示器類型)"
+DefaultMonitor.DeviceDesc = "預設顯示器"
+PnPMonitor.DeviceDesc = "隨插即用顯示器"
+
 [Strings.0405]
 MonitorClassName = "Monitory"
 StdMfg = "(Obecné monitory)"
@@ -111,8 +118,3 @@ PnPMonitor.DeviceDesc = "Tak ve Çalıştır Göstergeç"
 StdMfg = "(标准监视器类型)"
 DefaultMonitor.DeviceDesc = "默认监视器"
 PnPMonitor.DeviceDesc = "即插即用监视器"
-
-[Strings.0404]
-StdMfg = "(標準監視器類型)"
-DefaultMonitor.DeviceDesc = "預設監視器"
-PnPMonitor.DeviceDesc = "隨插即用監視器"
