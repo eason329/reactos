@@ -14,7 +14,7 @@ Usage: DISKPART [/S 檔名] [/T 逾時] [/?]\n\n\
 /?\t\t顯示此說明訊息。\n\n"
     IDS_APP_LICENSE "根據 GNU GPLv2 許可\n"
     IDS_APP_CURR_COMPUTER "在電腦: %s\n\n"
-    IDS_APP_LEAVING "\n正在離開 DiskPart ...\n"
+    IDS_APP_LEAVING "\n正在退出 DiskPart ...\n"
     IDS_APP_PROMPT "DISKPART> "
 END
 
