@@ -3,7 +3,7 @@
  * PURPOSE:     Chinese (Traditional) translations for sysdm
  * TRANSLATORS: 2016 Henry Tang (henrytang2@hotmail.com)
  *              2018 Luo Yufan (njlyf2011@hotmail.com)
- *              2021 Aobi Chan CL (eason066@gmail.com)
+ *              2021 Chan CL (eason066@gmail.com)
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -22,7 +22,7 @@ BEGIN
     LTEXT "", IDC_UPTIME, 10, 173, 116, 9
     LTEXT "電腦:", IDC_STATIC, 124, 116, 100, 9
     LTEXT "", IDC_MACHINELINE1, 130, 128, 118, 9
-    LTEXT "", IDC_MACHINELINE2, 130, 137, 118, 9sys
+    LTEXT "", IDC_MACHINELINE2, 130, 137, 118, 9
     LTEXT "", IDC_MACHINELINE3, 130, 146, 118, 9
     LTEXT "", IDC_MACHINELINE4, 130, 155, 118, 9
     LTEXT "", IDC_MACHINELINE5, 130, 164, 118, 9
