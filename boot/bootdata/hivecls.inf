@@ -1121,10 +1121,10 @@ SCFFILE="ReactOS Explorer 命令"
 ;WMZFILE="Compressed Enhanced Metafile"
 
 ;; For .reg files, right-click menu
-;MERGE="Merge"
+MERGE="合併"
 
 ;; For screensaver (*.scr) and MSI install package (*.msi) files, right-click menu
-;CONFIGURE="Configure"
+CONFIGURE="設定"
 INSTALL="安裝"
 UNINSTALL="解除安裝"
 REPAIR="修復"
