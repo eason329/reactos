@@ -4,7 +4,7 @@
  * FILE:       dll/shellext/netshell/lang/zh-TW.rc
  * PURPOSE:    Chinese (Traditional) Language File
  * TRANSLATOR: 2011 Elton Chung aka MfldElton <elton328@gmail.com>
- *             2020 - 2021 Chan CL <eason066@gmail.com>
+ *             2020 - 2021 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL

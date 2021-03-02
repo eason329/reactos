@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
  * PURPOSE:     Traditional Chinese resource file
  * COPYRIGHT:   Copyright 2008 Colin Finck (colin@reactos.org)
- * TRANSLATOR:  2021 Chan CL (eason066@gmail.com)
+ * TRANSLATOR:  2021 Chan Chilung (eason066@gmail.com)
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
