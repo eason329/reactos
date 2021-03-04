@@ -153,5 +153,5 @@ BEGIN
     IDS_CPLDESCRIPTION "設定控制台屬性。"
     IDS_APPLY_SHORTCUT_ALL "修改啟動此視窗的快捷方式(&S)"
     IDS_RASTERFONTS "Raster 字型"
-    IDS_GROUPBOX_FONT_NAME "已選擇的字體: "
+    IDS_GROUPBOX_FONT_NAME "已選擇的字型: "
 END
