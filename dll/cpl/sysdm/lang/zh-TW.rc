@@ -337,7 +337,7 @@ BEGIN
     IDS_USERPROFILE_CONFIRM_DELETE_TITLE "確認刪除"
     IDS_USERPROFILE_ACCOUNT_UNKNOWN "不明的帳戶"
     IDS_USERPROFILE_ACCOUNT_DELETED "帳戶已刪除"
-	IDS_USERPROFILE_TYPE_TEXT "當 %s 登入這台電腦時, 作業系統應使用漫遊設定檔，還只是漫遊設定檔的本機快取複本。"
+	IDS_USERPROFILE_TYPE_TEXT "當 %s 登入這台電腦時, 作業系統應使用漫遊設定檔，還是漫遊設定檔的本機快取複本。"
     IDS_MESSAGEBOXTITLE "系統控制面板小程序"
     IDS_WARNINITIALSIZE "為分頁文件的初始大小輸入一個數字值。"
     IDS_WARNMAXIMUMSIZE "為分頁文件的最大大小輸入一個數字值。"

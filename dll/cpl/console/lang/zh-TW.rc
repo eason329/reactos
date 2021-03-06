@@ -1,5 +1,5 @@
 /* Traditional Chinese translation by Henry Tang Ih 2016 (henrytang2@hotmail.com) 
-   Translation improved by Chan Chilung 2021 (eason066@gmail.com) */
+ * Translation improved by Chan Chilung 2021 (eason066@gmail.com) */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
@@ -138,11 +138,11 @@ END
 
 IDD_APPLYOPTIONS DIALOGEX 0, 0, 220, 79
 STYLE DS_SHELLFONT | WS_POPUP | WS_CAPTION
-CAPTION "應用屬性"
+CAPTION "套用內容"
 FONT 9, "新細明體"
 BEGIN
-    AUTORADIOBUTTON "屬性僅對目前的視窗生效(&A)", IDC_RADIO_APPLY_CURRENT, 12, 12, 207, 10, WS_CHILD | WS_VISIBLE | WS_TABSTOP
-    AUTORADIOBUTTON "儲存屬性，供以後具有相同標題的視窗使用(&S)", IDC_RADIO_APPLY_ALL, 12, 31, 207, 10, WS_CHILD | WS_VISIBLE | WS_TABSTOP
+    AUTORADIOBUTTON "僅將內容套用於目前的視窗(&A)", IDC_RADIO_APPLY_CURRENT, 12, 12, 207, 10, WS_CHILD | WS_VISIBLE | WS_TABSTOP
+    AUTORADIOBUTTON "將內容套用於以後具有相同標題的視窗(&S)", IDC_RADIO_APPLY_ALL, 12, 31, 207, 10, WS_CHILD | WS_VISIBLE | WS_TABSTOP
     PUSHBUTTON "確定", IDOK, 58, 58, 50, 14, WS_VISIBLE
     PUSHBUTTON "取消", IDCANCEL, 114, 58, 50, 14, WS_VISIBLE
 END
@@ -151,7 +151,7 @@ STRINGTABLE
 BEGIN
     IDS_CPLNAME "控制台"
     IDS_CPLDESCRIPTION "設定控制台屬性。"
-    IDS_APPLY_SHORTCUT_ALL "修改啟動此視窗的快捷方式(&S)"
+    IDS_APPLY_SHORTCUT_ALL "修改啟動此視窗的捷徑(&S)"
     IDS_RASTERFONTS "Raster 字型"
     IDS_GROUPBOX_FONT_NAME "已選擇的字型: "
 END
