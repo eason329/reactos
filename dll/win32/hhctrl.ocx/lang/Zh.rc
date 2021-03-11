@@ -1,7 +1,8 @@
 /*
  * HTML Help (Simplified and Traditional Chinese Resources)
  *
- * Copyright 2008 Hongbo Ni <hongbo.at.njstar.com>
+ * TRANSLATOR: 2008 Hongbo Ni <hongbo.at.njstar.com>
+ * Traditional Chinese translation sync to Wine by 2021 Chan Chilung <eason066@gmail.com>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -20,34 +21,6 @@
 
 /* Chinese text is encoded in UTF-8 */
 #pragma code_page(65001)
-
-LANGUAGE LANG_CHINESE, SUBLANG_NEUTRAL
-
-MENU_WEBBROWSER MENU
-{
-    POPUP ""
-    {
-        MENUITEM "&Back", IDTB_BACK
-        MENUITEM "&Forward", IDTB_FORWARD
-        MENUITEM SEPARATOR
-        MENUITEM "Select &All", MIID_SELECTALL
-        MENUITEM SEPARATOR
-        MENUITEM "&View Source", MIID_VIEWSOURCE
-        MENUITEM SEPARATOR
-        MENUITEM "&Print...", IDTB_PRINT
-        MENUITEM "&Refresh", IDTB_REFRESH
-        MENUITEM SEPARATOR
-        MENUITEM "Proper&ties", MIID_PROPERTIES
-    }
-    POPUP ""
-    {
-        MENUITEM "Cu&t", MIID_CUT
-        MENUITEM "&Copy", MIID_COPY
-        MENUITEM "Paste", MIID_PASTE
-        MENUITEM "Select &All", MIID_SELECTALL
-        MENUITEM "&Print", IDTB_PRINT
-    }
-}
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
@@ -91,6 +64,32 @@ MENU_POPUP MENU
     }
 }
 
+MENU_WEBBROWSER MENU
+{
+    POPUP ""
+    {
+        MENUITEM "&Back", IDTB_BACK
+        MENUITEM "&Forward", IDTB_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All", MIID_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "&View Source", MIID_VIEWSOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...", IDTB_PRINT
+        MENUITEM "&Refresh", IDTB_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "Proper&ties", MIID_PROPERTIES
+    }
+    POPUP ""
+    {
+        MENUITEM "Cu&t", MIID_CUT
+        MENUITEM "&Copy", MIID_COPY
+        MENUITEM "Paste", MIID_PASTE
+        MENUITEM "Select &All", MIID_SELECTALL
+        MENUITEM "&Print", IDTB_PRINT
+    }
+}
+
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
 STRINGTABLE
@@ -127,5 +126,31 @@ MENU_POPUP MENU
         MENUITEM "停止(&S)", IDTB_STOP
         MENUITEM "刷新(&R)", IDTB_REFRESH
         MENUITEM "列印...(&P)", IDTB_PRINT
+    }
+}
+
+MENU_WEBBROWSER MENU
+{
+    POPUP ""
+    {
+        MENUITEM "返回(&B)", IDTB_BACK
+        MENUITEM "向前(&F)", IDTB_FORWARD
+        MENUITEM SEPARATOR
+        MENUITEM "全選(&A)", MIID_SELECTALL
+        MENUITEM SEPARATOR
+        MENUITEM "檢視原始碼(&V)", MIID_VIEWSOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "列印(&P)...", IDTB_PRINT
+        MENUITEM "重新整理(&R)", IDTB_REFRESH
+        MENUITEM SEPARATOR
+        MENUITEM "屬性(&T)", MIID_PROPERTIES
+    }
+    POPUP ""
+    {
+        MENUITEM "剪下(&T)", MIID_CUT
+        MENUITEM "複製(&C)", MIID_COPY
+        MENUITEM "貼上", MIID_PASTE
+        MENUITEM "全選(&A)", MIID_SELECTALL
+        MENUITEM "列印(&P)", IDTB_PRINT
     }
 }
