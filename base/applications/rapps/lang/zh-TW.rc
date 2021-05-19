@@ -170,7 +170,7 @@ BEGIN
     IDS_CAT_GAMES "遊戲與娛樂"
     IDS_CAT_GRAPHICS "圖形"
     IDS_CAT_INTERNET "網際網路"
-    IDS_CAT_LIBS "函式庫"
+    IDS_CAT_LIBS "程式庫"
     IDS_CAT_OFFICE "辦公"
     IDS_CAT_OTHER "其他"
     IDS_CAT_SCIENCE "科學"
