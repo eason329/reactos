@@ -335,6 +335,6 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_NOT_SAME_PASSWORD "The Passwords are not the same!"
-    IDS_INVALID_PASSWORD "Enter a valid Password!"
+    IDS_NOT_SAME_PASSWORD "密碼不相符!"
+    IDS_INVALID_PASSWORD "請輸入有效的密碼!"
 END
