@@ -1,0 +1,20 @@
+/*
+ * PROJECT:     ReactOS Logoff
+ * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
+ * PURPOSE:     Cantonese (Hong Kong) resource file
+ * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
+ * REFERENCES:  Chinese (Traditional) resource translation
+ *              Copyright 2011 Elton Chung <elton328@gmail.com>
+ */
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
+
+STRINGTABLE
+BEGIN
+    IDS_USAGE "終止一個階段。\n\n\
+  /v\t\t顯示有關已執行動作嘅資訊。\n\
+  /?\t\t顯示依個資訊。\n\n"
+    IDS_LOGOFF_REMOTE "正在終止遠端機器嘅階段。"
+    IDS_LOGOFF_LOCAL "正在終止依個機器目前嘅階段。"
+    IDS_ILLEGAL_PARAM "無效嘅參數\n"
+END
