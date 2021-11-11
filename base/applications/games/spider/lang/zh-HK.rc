@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Spider Solitaire
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -48,8 +48,8 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_SPI_NAME "蜘蛛紙牌"
-    IDS_SPI_ABOUT "蜘蛛紙牌 作者：Gregor Schneider\n\n使用 CardLib 版本 1.0"
+    IDS_SPI_NAME "連環新接龍"
+    IDS_SPI_ABOUT "連環新接龍 作者：Gregor Schneider\n\n使用 CardLib 版本 1.0"
     IDS_SPI_QUIT "退出目前遊戲？"
     IDS_SPI_WIN "恭喜您，您贏咗！"
     IDS_SPI_DEAL "再玩一次？"

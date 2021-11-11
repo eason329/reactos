@@ -1,4 +1,9 @@
-// Chinese Hong Kong (zh-HK) resources by Chan Chilung <eason066@gmail.com> 2021
+/*
+ * PROJECT:     ReactOS Modern Theme
+ * LICENSE:     GPL-3.0-or-later (https://spdx.org/licenses/GPL-3.0-or-later)
+ * PURPOSE:     Chinese (Hong Kong) resource file
+ * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
+ */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
 
@@ -37,5 +42,5 @@ STRINGTABLE
 5004, "於 2018 年以 GNU/GPL 3.0 條款發行"
 5005, "https://reactos.org/"
 5006, "1.0"
-5007, "ReactOS 嘅 Modern 主題"
+5007, "ReactOS 的 Modern 主題"
 }

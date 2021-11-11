@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Magnifier
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -69,8 +69,8 @@ FONT 9, "新細明體", 400, 0, 0x1
 BEGIN
     DEFPUSHBUTTON "確定", IDOK, 193, 76, 50, 14
     ICON IDI_ICON, IDC_STATIC, 7, 17, 20, 20
-    LTEXT "放大鏡係為有輕微視覺障礙的用戶提供嘅一個最低限度嘅功能。有視覺障礙嘅用戶大多需要一個功能較強嘅放大鏡作日常使用。", IDC_STATIC, 36, 7, 207, 33
-    CONTROL "不要再顯示依個訊息", IDC_SHOWWARNINGCHECK, "Button",
+    LTEXT "放大鏡是為有輕微視覺障礙的用户提供一個最低限度的功能。有視覺障礙的用户大多需要一個功能較強的放大鏡作日常使用。", IDC_STATIC, 36, 7, 207, 33
+    CONTROL "不要再顯示這個訊息", IDC_SHOWWARNINGCHECK, "Button",
             BS_AUTOCHECKBOX | WS_TABSTOP, 43, 80, 137, 10
 END
 

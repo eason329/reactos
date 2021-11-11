@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Event Viewer
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
@@ -25,8 +25,8 @@ BEGIN
     END
     POPUP "查看(&V)"
     BEGIN
-        MENUITEM "最新嘅放前(&N)", IDM_LIST_NEWEST
-        MENUITEM "最舊嘅放前(&O)", IDM_LIST_OLDEST
+        MENUITEM "最新的放前(&N)", IDM_LIST_NEWEST
+        MENUITEM "最舊的放前(&O)", IDM_LIST_OLDEST
         MENUITEM SEPARATOR
         MENUITEM "詳情(&D)...\tEnter", IDM_EVENT_DETAILS
         MENUITEM SEPARATOR
@@ -147,7 +147,7 @@ BEGIN
     LTEXT "日", IDC_STATIC, 162, 168, 20, 8
     CONTROL "不要覆寫事件(&N)\n（手動清除記錄）", IDC_NO_OVERWRITE, "Button", BS_AUTORADIOBUTTON | BS_MULTILINE | WS_GROUP | WS_TABSTOP, 17, 180, 143, 20
     PUSHBUTTON "還原到預設值(&R)", IDC_RESTOREDEFAULTS, 166, 183, 70, 14
-    AUTOCHECKBOX "Using a lo&w-speed connection", IDC_LOW_SPEED_CONNECTION, 7, 217, 167, 10
+    AUTOCHECKBOX "使用低速連線(&W)", IDC_LOW_SPEED_CONNECTION, 7, 217, 167, 10
     PUSHBUTTON "清除記錄(&C)", ID_CLEARLOG, 195, 213, 50, 14
 END
 
@@ -156,16 +156,16 @@ BEGIN
     IDS_COPYRIGHT "版權所有 (C) 2007 Marc Piulachs (marc.piulachs@codexchange.net)"
     IDS_APP_TITLE "事件檢視器"
     IDS_APP_TITLE_EX "%s - %s Log on \\\\"
-    IDS_STATUS_MSG "%s has %lu event(s) (listed: %lu)"
+    IDS_STATUS_MSG "%s 有 %lu 個事件（已列出：%lu）"
     IDS_LOADING_WAIT "正在載入記錄。請稍候..."
-    IDS_NO_ITEMS "There are no items to show in this view." // "No events in this log."
+    IDS_NO_ITEMS "這個檢視沒有可顯示項目。" // "No events in this log."
     IDS_EVENTLOG_SYSTEM "系統記錄檔"
     IDS_EVENTLOG_APP "應用程式記錄檔"
     IDS_EVENTLOG_USER "使用者記錄檔"
     IDS_SAVE_FILTER "事件記錄檔 (*.evt)\0*.evt\0"
-    IDS_CLEAREVENTS_MSG "您想喺清除之前儲存依個事件記錄嗎？"
-    IDS_RESTOREDEFAULTS "Do you want to restore all settings for this log to their default values?"
-    IDS_EVENTSTRINGIDNOTFOUND "揾唔到來源（%s）中的事件 ID（%lu）嘅描述。本地電腦可能沒有顯示來自遠端電腦消息所必需嘅註冊表資訊或消息 DLL 檔。\n\n下列資訊係部分事件：\n\n"
+    IDS_CLEAREVENTS_MSG "您想在清除之前儲存這個事件記錄嗎？"
+    IDS_RESTOREDEFAULTS "您要將這個記錄的所有設定還原至預設值嗎？"
+    IDS_EVENTSTRINGIDNOTFOUND "找不到來源（%s）中的事件 ID（%lu）的描述。本地電腦可能沒有顯示來自遠端電腦訊息所需的註冊表資訊或訊息 DLL 檔。\n\n下列資訊是部分事件：\n\n"
 END
 
 STRINGTABLE
@@ -173,16 +173,16 @@ BEGIN
 /* Please note that explicit TAB characters '\t' are used to fix the alignment of the message in the MessageBox */
     IDS_USAGE "ReactOS Event Viewer\n\
 \n\
-EventVwr [computer name] [/l:<event log file>] [/?]\n\
+EventVwr [電腦名稱] [/l:<事件記錄檔案>] [/?]\n\
 \n\
-""computer name"" : Specifies the remote computer where to connect\n\
-\tto retrieve the events to display. If no name is specified, the\n\
-\tlocal computer is used.\n\
+""電腦名稱"" : 指定要連線的遠端電腦\n\
+\t以擷取要顯示的事件。如果未指定名稱，\n\
+\t則使用本地電腦。\n\
 \n\
-/l:<event log file> : Specifies which event log file to open.\n\
-\tOnly files in the .evt format (NT ≤ 5.2) are supported.\n\
+/l:<事件記錄檔案> : 指定要開啟的事件記錄檔案。\n\
+\t只支援 .evt 格式檔案 (NT ≤ 5.2)。\n\
 \n\
-/? : Displays this help message.\n\
+/? : 顯示這個説明訊息。\n\
 "
     IDS_EVENTLOGFILE "事件記錄檔案"
 END
@@ -195,12 +195,12 @@ BEGIN
     IDS_EVENTLOG_AUDIT_SUCCESS "審核成功"
     IDS_EVENTLOG_AUDIT_FAILURE "審核失敗"
     IDS_EVENTLOG_SUCCESS "成功"
-    IDS_EVENTLOG_UNKNOWN_TYPE "未知事件"
+    IDS_EVENTLOG_UNKNOWN_TYPE "不明事件"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_BYTES_FORMAT "bytes" // "%s bytes"
+    IDS_BYTES_FORMAT "位元組" // "%s bytes"
     // "%1!ls! (%2!ls! bytes)"
 END
 

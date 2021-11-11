@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS MSConfig
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -89,7 +89,7 @@ BEGIN
     LTEXT           "逾時(&T)：", IDC_STATIC, 296, 91, 32, 10
     EDITTEXT        IDC_TXT_BOOT_TIMEOUT, 295, 102, 33, 12, ES_RIGHT | ES_NUMBER
     LTEXT           "秒", IDC_STATIC, 330, 104, 31, 10
-    CONTROL         "使所有引導設定永久有效(&A)", 292,
+    CONTROL         "令所有引導設定永久有效(&A)", 292,
                     "Button", BS_AUTOCHECKBOX | BS_TOP | BS_MULTILINE | WS_TABSTOP, 295, 121, 66, 49
     PUSHBUTTON      "刪除(&D)", IDC_BTN_DELETE, 295, 68, 66, 14
 END
@@ -134,7 +134,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
 CAPTION "從安裝源展開檔案"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT           "指定您想要還原嘅檔案，包含安裝檔案嘅來源同目標位置。", IDC_STATIC, 7, 7, 339, 17
+    LTEXT           "指定您想還原的檔案，包括安裝檔案來源和目標位置。", IDC_STATIC, 7, 7, 339, 17
     LTEXT           "要還原的檔案(&I)：", IDC_STATIC, 7, 34, 93, 10
     EDITTEXT        IDC_TXT_FILE_TO_RESTORE, 103, 32, 158, 12, ES_AUTOHSCROLL
     PUSHBUTTON      "瀏覽檔案(&B)...", IDC_BTN_BROWSE_ALL_FILES, 264, 30, 82, 14
@@ -198,8 +198,8 @@ CAPTION "系統設定"
 FONT 9, "新細明體"
 BEGIN
     DEFPUSHBUTTON   "確定", IDOK, 180, 41, 50, 14
-    LTEXT           "唔可以停用基本服務。噉樣做可能會阻止 %s 喺您嘅電腦上執行。", IDC_STATIC_REQSVCSDIS_INFO, 7, 7, 223, 28
-    CONTROL         "以後唔再顯示依個消息(&D)", IDC_CBX_REQSVCSDIS_NO_MSG_ANYMORE,
+    LTEXT           "不可以停用基本服務。這樣做可能會阻止 %s 在您的電腦上執行。", IDC_STATIC_REQSVCSDIS_INFO, 7, 7, 223, 28
+    CONTROL         "以後不再顯示這個消息(&D)", IDC_CBX_REQSVCSDIS_NO_MSG_ANYMORE,
                     "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 7, 42, 154, 13
 END
 

@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Calculator
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Simplified) resource translation
  *              Copyright 2011 Song Fuchang <sfc_0@yahoo.com.cn>
@@ -233,13 +233,13 @@ BEGIN
     PUSHBUTTON "轉換", IDC_BUTTON_CONVERT, 35, 105, 76, 17
     COMBOBOX IDC_COMBO_CATEGORY, 5, 31, 140, 168, CBS_DROPDOWNLIST | WS_VSCROLL |
              WS_TABSTOP | CBS_SORT
-    LTEXT "類別:", IDC_STATIC, 5, 20, 56, 8
+    LTEXT "類別：", IDC_STATIC, 5, 20, 56, 8
     COMBOBOX IDC_COMBO_FROM, 5, 60, 140, 168, CBS_DROPDOWNLIST | WS_VSCROLL |
              WS_TABSTOP | CBS_SORT
-    LTEXT "從...轉換:", IDC_STATIC, 5, 49, 56, 8
+    LTEXT "從...轉換：", IDC_STATIC, 5, 49, 56, 8
     COMBOBOX IDC_COMBO_TO, 5, 87, 140, 168, CBS_DROPDOWNLIST | WS_VSCROLL |
              WS_TABSTOP | CBS_SORT
-    LTEXT "轉換為:", IDC_STATIC, 5, 76, 56, 8
+    LTEXT "轉換為：", IDC_STATIC, 5, 76, 56, 8
     CONTROL "C", IDC_BUTTON_CANC, "Button", BS_OWNERDRAW | BS_CENTER |
             BS_VCENTER | BS_NOTIFY | WS_TABSTOP, 276, 24, 40, 17
     CONTROL "CE", IDC_BUTTON_CE, "Button", BS_OWNERDRAW | BS_CENTER |
@@ -465,7 +465,7 @@ BEGIN
     IDS_AREA_PYEONGBANGJA "Pyeongbangja"
     IDS_AREA_RAI "萊"
     IDS_AREA_SE "畝（日本）"
-    IDS_AREA_SQUARE_CENTIMETERS "平方釐米"
+    IDS_AREA_SQUARE_CENTIMETERS "平方厘米"
     IDS_AREA_SQUARE_CHR "Square chr"
     IDS_AREA_SQUARE_FATHOMS "平方英尋"
     IDS_AREA_SQUARE_FATHOMS_HUNGARY "平方英尋（匈牙利）"
@@ -487,10 +487,10 @@ END
 /* Consumptions */
 STRINGTABLE
 BEGIN
-    IDS_CONSUMPTION_KM_PER_L "公里/升"
-    IDS_CONSUMPTION_L_PER_100_KM "升/100 公里"
-    IDS_CONSUMPTION_MILES_GALLON_UK "英里/加侖（英國）"
-    IDS_CONSUMPTION_MILES_GALLON_US "英里/加侖（美國）"
+    IDS_CONSUMPTION_KM_PER_L "公里／升"
+    IDS_CONSUMPTION_L_PER_100_KM "升／100 公里"
+    IDS_CONSUMPTION_MILES_GALLON_UK "英里／加侖（英國）"
+    IDS_CONSUMPTION_MILES_GALLON_US "英里／加侖（美國）"
 END
 
 /* Currencies */
@@ -637,14 +637,14 @@ END
 /* Velocities */
 STRINGTABLE
 BEGIN
-    IDS_VELOCITY_CMS_SECOND "釐米/小時"
-    IDS_VELOCITY_FEET_HOUR "英尺/小時"
-    IDS_VELOCITY_FEET_SECOND "英尺/秒"
-    IDS_VELOCITY_KILOMETERS_HOUR "公里/小時"
+    IDS_VELOCITY_CMS_SECOND "厘米／小時"
+    IDS_VELOCITY_FEET_HOUR "英尺／小時"
+    IDS_VELOCITY_FEET_SECOND "英尺／秒"
+    IDS_VELOCITY_KILOMETERS_HOUR "公里／小時"
     IDS_VELOCITY_KNOTS "節"
     IDS_VELOCITY_MACH "馬赫"
-    IDS_VELOCITY_METERS_SECOND "米/秒"
-    IDS_VELOCITY_MILES_HOUR "英里/小時"
+    IDS_VELOCITY_METERS_SECOND "米／秒"
+    IDS_VELOCITY_MILES_HOUR "英里／小時"
 END
 
 /* Volumes */
@@ -661,8 +661,8 @@ BEGIN
     IDS_VOLUME_CUBIC_METERS "立方米"
     IDS_VOLUME_CUBIC_YARDS "立方碼"
     IDS_VOLUME_DOE "Doe"
-    IDS_VOLUME_FLUID_OUNCES_UK "液盎司（英國）"
-    IDS_VOLUME_FLUID_OUNCES_US "液盎司（美國）"
+    IDS_VOLUME_FLUID_OUNCES_UK "液安士（英國）"
+    IDS_VOLUME_FLUID_OUNCES_US "液安士（美國）"
     IDS_VOLUME_GALLONS_UK "加侖（英國）"
     IDS_VOLUME_GALLONS_DRY_US "乾量加侖（美國）"
     IDS_VOLUME_GALLONS_LIQUID_US "濕量加侖（美國）"
@@ -698,15 +698,15 @@ BEGIN
     IDS_WEIGHT_GWAN "Gwan"
     IDS_WEIGHT_HARB "Harb"
     IDS_WEIGHT_JIN_CHINA "斤（中國）"
-    IDS_WEIGHT_JIN_TAIWAN "斤（臺灣）"
+    IDS_WEIGHT_JIN_TAIWAN "斤（台灣）"
     IDS_WEIGHT_KAN "貫（日本）"
     IDS_WEIGHT_KILOGRAMS "千克"
     IDS_WEIGHT_KIN "斤（日本）"
     IDS_WEIGHT_LIANG_CHINA "兩（中國）"
-    IDS_WEIGHT_LIANG_TAIWAN "兩（臺灣）"
+    IDS_WEIGHT_LIANG_TAIWAN "兩（台灣）"
     IDS_WEIGHT_MONME "兩（日本）"
-    IDS_WEIGHT_OUNCES_AVOIRDUPOIS "常衡盎司"
-    IDS_WEIGHT_OUNCES_TROY "金衡盎司"
+    IDS_WEIGHT_OUNCES_AVOIRDUPOIS "常衡安士"
+    IDS_WEIGHT_OUNCES_TROY "金衡安士"
     IDS_WEIGHT_POUNDS "英磅"
     IDS_WEIGHT_QUINTAL_METRIC "公擔"
     IDS_WEIGHT_SALOUNG "Saloung"

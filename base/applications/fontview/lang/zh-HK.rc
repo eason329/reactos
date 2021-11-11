@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS FontView
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -16,10 +16,10 @@ BEGIN
     IDS_STRING "路曼曼其脩遠兮，吾將上下而求索。1234567890"
     IDS_OPEN "開啟字型..."
     IDS_ERROR "錯誤"
-    IDS_ERROR_NOMEM "冇足夠嘅記憶體嚟完成操作。"
-    IDS_ERROR_NOFONT "%1 唔係一個有效嘅字型檔案。"
+    IDS_ERROR_NOMEM "沒有足夠的記憶體來完成操作。"
+    IDS_ERROR_NOFONT "%1 不是一個有效的字型檔案。"
     IDS_ERROR_NOCLASS "無法初始化視窗。"
-    IDS_FILTER_LIST "所有支援嚟字型 (*.fon;*.fnt;*.ttf;*.ttc;*.otf;*.otc)\0*.fon;*.fnt;*.ttf;*.ttc;*.otf;*.otc\0\
+    IDS_FILTER_LIST "所有支援的字型 (*.fon;*.fnt;*.ttf;*.ttc;*.otf;*.otc)\0*.fon;*.fnt;*.ttf;*.ttc;*.otf;*.otc\0\
 字型檔案 (*.fon;*.fnt)\0*.fon;*.fnt\0\
 TrueType 字型 (*.ttf)\0*.ttf\0\
 TrueType 字型集合 (*.ttc)\0*.ttc\0\

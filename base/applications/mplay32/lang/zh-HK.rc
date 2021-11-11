@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS MPlay32
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -61,7 +61,7 @@ BEGIN
     IDS_MODE_RECORD "錄音中"
     IDS_MODE_SEEK "尋找中"
     IDS_MODE_NOT_READY "未就緒"
-    IDS_ALL_TYPES_FILTER "所有支援嘅格式"
+    IDS_ALL_TYPES_FILTER "所有支援的格式"
     IDS_TOOLTIP_PLAY "播放"
     IDS_TOOLTIP_STOP "停止"
     IDS_TOOLTIP_EJECT "卸載"
@@ -72,5 +72,5 @@ BEGIN
     IDS_TOOLTIP_PAUSE "暫停"
     IDS_APPTITLE "ReactOS 多媒體播放器"
     IDS_PLAY "播放"
-    IDS_DEFAULTMCIERRMSG "嗰個錯誤冇可用嘅描述。"
+    IDS_DEFAULTMCIERRMSG "該錯誤沒有可用的描述。"
 END

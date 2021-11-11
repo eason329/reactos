@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Clipboard Viewer
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
@@ -43,7 +43,7 @@ STRINGTABLE
 BEGIN
     STRING_CLIPBOARD "剪貼簿檢視器"
     STRING_CLIPFILE  "剪貼簿項目"
-    STRING_DELETE_MSG "要清除剪貼簿嘅內容嗎？"
+    STRING_DELETE_MSG "要清除剪貼簿的內容嗎？"
     STRING_DELETE_TITLE "清除剪貼簿"
     STRING_FORMAT_NT "ReactOS 剪貼簿檔案 (*.clp)"
     STRING_FORMAT_GEN "剪貼簿檔案 (*.clp)"
@@ -51,7 +51,7 @@ END
 
 STRINGTABLE
 BEGIN
-    STRING_CF_UNKNOWN "未知嘅格式"
+    STRING_CF_UNKNOWN "不明格式"
     STRING_CF_TEXT "文字"
     STRING_CF_BITMAP "點陣圖"
     STRING_CF_OEMTEXT "OEM 文字"
@@ -69,6 +69,6 @@ END
 
 STRINGTABLE
 BEGIN
-    ERROR_UNSUPPORTED_FORMAT "剪貼簿內嘅資料包含不能顯示嘅格式。"
-    ERROR_INVALID_FILE_FORMAT "所選嘅檔案唔係一個有效嘅剪貼簿檔案。"
+    ERROR_UNSUPPORTED_FORMAT "剪貼簿內的資料含有不能顯示的格式。"
+    ERROR_INVALID_FILE_FORMAT "所選的檔案不是一個有效的剪貼簿檔案。"
 END

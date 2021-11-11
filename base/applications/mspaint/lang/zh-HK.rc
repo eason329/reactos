@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS Paint
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung <elton328@gmail.com>
@@ -30,7 +30,7 @@ BEGIN
         MENUITEM "儲存為牆紙（居中）", IDM_FILEASWALLPAPERCENTERED
         MENUITEM "儲存為牆紙（拉伸）", IDM_FILEASWALLPAPERSTRETCHED
         MENUITEM SEPARATOR
-        MENUITEM "最近使用過嘅檔案", IDM_FILEMOSTRECENTLYUSEDFILE, GRAYED
+        MENUITEM "最近使用過的檔案", IDM_FILEMOSTRECENTLYUSEDFILE, GRAYED
         MENUITEM SEPARATOR
         MENUITEM "結束(&X)\tAlt+F4", IDM_FILEEXIT
     END
@@ -203,12 +203,12 @@ BEGIN
     IDS_MINIATURETITLE "縮圖"
     IDS_TOOLTIP1 "自由選擇"
     IDS_TOOLTIP2 "選擇"
-    IDS_TOOLTIP3 "橡皮擦"
+    IDS_TOOLTIP3 "擦膠"
     IDS_TOOLTIP4 "填充"
     IDS_TOOLTIP5 "取色"
     IDS_TOOLTIP6 "縮放"
     IDS_TOOLTIP7 "鉛筆"
-    IDS_TOOLTIP8 "刷子"
+    IDS_TOOLTIP8 "筆刷"
     IDS_TOOLTIP9 "噴槍"
     IDS_TOOLTIP10 "文字"
     IDS_TOOLTIP11 "直線"
@@ -222,8 +222,8 @@ BEGIN
     IDS_FILESIZE "%d 位元組"
     IDS_PRINTRES "%d x %d 像素每米"
     IDS_INTNUMBERS "請輸入整數！"
-    IDS_PERCENTAGE "所佔百分比必須介於 1 和 500 之間。"
-    IDS_ANGLE "角度必須介於 -89 和 89 之間。"
+    IDS_PERCENTAGE "所佔百分比必須介乎 1 至 500 之間。"
+    IDS_ANGLE "角度必須介乎 -89 至 89 之間。"
     IDS_LOADERRORTEXT "無法載入檔案 %s。"
-    IDS_ENLARGEPROMPTTEXT "剪貼簿中嘅圖像比點陣圖大。\n你要擴大點陣圖嗎？"
+    IDS_ENLARGEPROMPTTEXT "剪貼簿中的圖像比點陣圖大。\n你要擴大點陣圖嗎？"
 END

@@ -1,5 +1,11 @@
-/* Translation has been created by Luo Yufan 2019 <njlyf2011@hotmail.com> */
-/* Translation improved by Chan Chilung 2021 (eason066@gmail.com) */
+/*
+ * PROJECT:      ReactOS User API Client Dll
+ * LICENSE:      GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
+ * PURPOSE:      Chinese (Hong Kong) resource file
+ * TRANSLATORS:  Copyright 2021 Chan Chilung <eason066@gmail.com>
+ * REFERENCES:   Chinese (Traditional) resource translation
+ *               Copyright 2011 Elton Chung <elton328@gmail.com>
+ */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
 
@@ -62,7 +68,7 @@ STRINGTABLE
 BEGIN
     IDS_ERROR "錯誤"
     IDS_NOT_RESPONDING "（沒有回應）"
-    IDS_ASK_TERMINATE "這個應用程式沒有回應，是否需要結束依個程式？"
+    IDS_ASK_TERMINATE "這個應用程式沒有回應，是否要結束這個程式？"
     IDS_HUNG_UP_TITLE "沒有回應。"
     IDS_OK "確定"
     IDS_CANCEL "取消"
@@ -72,7 +78,7 @@ BEGIN
     IDS_YES "是(&Y)"
     IDS_NO "否(&N)"
     IDS_CLOSE "關閉(&C)"
-    IDS_HELP "說明"
+    IDS_HELP "説明"
     IDS_TRYAGAIN "再試一次(&T)"
     IDS_CONTINUE "繼續(&C)"
 END

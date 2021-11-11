@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS MSConfig
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  *              Copyright 2011 Elton Chung aka MfldElton <elton328@gmail.com>
@@ -76,7 +76,7 @@ FONT 9, "新細明體"
 BEGIN
     GROUPBOX "啟動選擇", -1, 10, 10, 340, 150, 0, WS_EX_TRANSPARENT
     CONTROL "正常啟動 - 載入所有裝置驅動程式和服務(&N)", IDC_CBX_NORMAL_START, "Button", 0x50010009, 20, 30, 260, 10
-    CONTROL "診斷啟動 - 僅載入基本裝置驅動程式和服務(&D)", IDC_CBX_DIAGNOSTIC_START, "Button", 0x50010009, 20, 45, 260, 10
+    CONTROL "診斷啟動 - 只載入基本裝置驅動程式和服務(&D)", IDC_CBX_DIAGNOSTIC_START, "Button", 0x50010009, 20, 45, 260, 10
     CONTROL "有選擇的啟動(&E)", IDC_CBX_SELECTIVE_STARTUP, "Button", 0x50010009, 20, 60, 260, 10
     AUTOCHECKBOX "處理 SYSTEM.INI 文件(&R)", IDC_CBX_SYSTEM_INI, 30, 80, 260, 10
     AUTOCHECKBOX "載入系统服務(&L)", IDC_CBX_SYSTEM_SERVICE, 30, 95, 260, 10
@@ -163,7 +163,7 @@ BEGIN
     IDS_TOOLS_REGEDIT_DESCR "開啟登錄表編輯器。"
     IDS_TOOLS_REGEDIT_CMD "regedit.exe"
     IDS_TOOLS_SYSDM_NAME "系統內容"
-    IDS_TOOLS_SYSDM_DESCR "顯示這台電腦嘅內容"
+    IDS_TOOLS_SYSDM_DESCR "顯示這台電腦的內容"
     IDS_TOOLS_SYSDM_CMD "control.exe"
     IDS_TOOLS_SYSDM_PARAM "sysdm.cpl"
     IDS_STARTUP_COLUMN_ELEMENT "啟動項目"

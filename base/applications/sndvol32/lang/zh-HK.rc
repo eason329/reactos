@@ -1,5 +1,12 @@
-/* Translated by Elton Chung aka MfldElton <elton328@gmail.com> */
-
+/*
+ * PROJECT:     ReactOS Sound Volume Control
+ * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
+ * PURPOSE:     Chinese (Hong Kong) resource file
+ * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
+ * REFERENCES:  Chinese (Traditional) resource translation
+ *              Copyright 2011 Elton Chung <elton328@gmail.com>
+ */
+ 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
 
 IDM_MAINMENU MENU
@@ -22,9 +29,9 @@ END
 STRINGTABLE
 BEGIN
     IDS_SNDVOL32 "音量控制"
-    IDS_NOMIXERDEVICES "沒有可用嘅混音器設備！這個程式即將結束。"
+    IDS_NOMIXERDEVICES "沒有可用的混音器設備！這個程式即將結束。"
     IDS_SELECT "選擇(&S)"
-    IDS_ADVANCED_CONTROLS "進階控制: %s"
+    IDS_ADVANCED_CONTROLS "進階控制：%s"
     IDS_OTHER_CONTROLS1 "&1  %s"
     IDS_OTHER_CONTROLS2 "&2  %s"
 END
@@ -41,7 +48,7 @@ BEGIN
     AUTORADIOBUTTON "錄音(&R)", IDC_RECORDING, 13, 61, 47, 8
     AUTORADIOBUTTON "其他(&O)：", IDC_OTHER, 13, 80, 42, 8, WS_DISABLED
     COMBOBOX IDC_LINE, 55, 80, 155, 50, CBS_DROPDOWNLIST | WS_TABSTOP | WS_DISABLED
-    LTEXT "顯示以下嘅音量控制：", IDC_LABELCONTROLS, 7, 109, 162, 8
+    LTEXT "顯示以下的音量控制：", IDC_LABELCONTROLS, 7, 109, 162, 8
     CONTROL "", IDC_CONTROLS, "SysListView32", LVS_REPORT | LVS_NOCOLUMNHEADER | WS_TABSTOP | WS_BORDER, 7, 122, 211, 96
     PUSHBUTTON "確定", IDOK, 114, 226, 50, 14
     PUSHBUTTON "取消", IDCANCEL, 168, 226, 50, 14
@@ -119,19 +126,19 @@ CAPTION "進階音量控制"
 FONT 9, "新細明體"
 BEGIN
     CONTROL IDI_MAINAPP, -1, "static", SS_ICON | WS_CHILD | WS_VISIBLE, 7, 7, 32, 32
-    LTEXT "These settings can be used to make fine adjustments to your audio.", -1, 44, 7, 200, 32
-    GROUPBOX "Tone Controls", IDC_ADV_TONE_CONTROLS, 7, 33, 240, 80
-    LTEXT "These settings control how the tone of your audio sounds.", -1, 17, 48, 200, 14
-    LTEXT "&Bass:", -1, 17, 62, 50, 8
+    LTEXT "這些設定可以對您的音訊進行仔細的調整。", -1, 44, 7, 200, 32
+    GROUPBOX "音調控制", IDC_ADV_TONE_CONTROLS, 7, 33, 240, 80
+    LTEXT "這些設定可以控制音訊的不同音色聽起來的感受。", -1, 17, 48, 200, 14
+    LTEXT "低音(&B)：", -1, 17, 62, 50, 8
     LTEXT "低", IDC_ADV_BASS_LOW, 77, 62, 20, 8
     LTEXT "高", IDC_ADV_BASS_HIGH, 182, 62, 20, 8
     CONTROL "", IDC_ADV_BASS_SLIDER, "msctls_trackbar32", TBS_HORZ | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 97, 62, 80, 20
-    LTEXT "&Treble:", -1, 17, 90, 50, 8
+    LTEXT "高音(&T)：", -1, 17, 90, 50, 8
     LTEXT "低", IDC_ADV_TREBLE_LOW, 77, 90, 20, 8
     LTEXT "高", IDC_ADV_TREBLE_HIGH, 182, 90, 20, 8
     CONTROL "", IDC_ADV_TREBLE_SLIDER, "msctls_trackbar32", TBS_HORZ | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 97, 90, 80, 20
     GROUPBOX "其他控制", IDC_ADV_OTHER_CONTROLS, 7, 119, 240, 66
-    LTEXT "These settings make other changes to how your audio sounds. See your hardware documentation for details.", IDC_ADV_OTHER_TEXT, 17, 135, 220, 28
+    LTEXT "這些設定可以對您的音訊的其他方面進行調整。詳情請參考硬件的説明檔案。", IDC_ADV_OTHER_TEXT, 17, 135, 220, 28
     AUTOCHECKBOX "&1 ", IDC_ADV_OTHER_CHECK1, 17, 159, 220, 14
     AUTOCHECKBOX "&2 ", IDC_ADV_OTHER_CHECK2, 17, 174, 220, 14
     DEFPUSHBUTTON "關閉", IDOK, 197, 120, 50, 14, WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP

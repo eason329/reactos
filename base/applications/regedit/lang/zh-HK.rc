@@ -1,7 +1,12 @@
-/* Traditional Chinese translation by:
- * Henry Tang Ih 2016 (henrytang2@hotmail.com)
- * Luo Yufan 2018 (njlyf2011@hotmail.com)
- * Chan Chilung 2021 (eason066@gmail.com) */
+/*
+ * PROJECT:     ReactOS Registry Editor
+ * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
+ * PURPOSE:     Chinese (Hong Kong) resource file
+ * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com> 
+ * REFERENCES:  Chinese (Traditional) resource translation
+ *              Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
+ *              Copyright 2018 Luo Yufan <njlyf2011@hotmail.com>
+ */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
 
@@ -21,7 +26,7 @@ IDC_REGEDIT MENU
 BEGIN
     POPUP "檔案(&F)"
     BEGIN
-        MENUITEM "退出(&X)", ID_REGISTRY_EXIT
+        MENUITEM "結束(&X)", ID_REGISTRY_EXIT
     END
     POPUP "說明(&H)"
     BEGIN
@@ -44,21 +49,21 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "列印(&P)...\tCtrl+P", ID_REGISTRY_PRINT, GRAYED
         MENUITEM SEPARATOR
-        MENUITEM "退出(&X)", ID_REGISTRY_EXIT
+        MENUITEM "結束(&X)", ID_REGISTRY_EXIT
     END
     POPUP "編輯(&E)"
     BEGIN
         MENUITEM "修改(&M)", ID_EDIT_MODIFY
         MENUITEM SEPARATOR
-        POPUP "新建(&N)"
+        POPUP "新增(&N)"
         BEGIN
             MENUITEM "機碼(&K)", ID_EDIT_NEW_KEY
             MENUITEM SEPARATOR
-            MENUITEM "字元串值(&S)", ID_EDIT_NEW_STRINGVALUE
+            MENUITEM "字串值(&S)", ID_EDIT_NEW_STRINGVALUE
             MENUITEM "二進制值(&B)", ID_EDIT_NEW_BINARYVALUE
             MENUITEM "DWORD 值(&D)", ID_EDIT_NEW_DWORDVALUE
-            MENUITEM "多字元串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
-            MENUITEM "可擴充字元串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
+            MENUITEM "多字串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
+            MENUITEM "可擴充字串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
         END
         MENUITEM SEPARATOR
         MENUITEM "許可權(&P)...", ID_EDIT_PERMISSIONS
@@ -75,7 +80,7 @@ BEGIN
     BEGIN
         MENUITEM "狀態列(&B)", ID_VIEW_STATUSBAR
         MENUITEM SEPARATOR
-        MENUITEM "拆分(&L)", ID_VIEW_SPLIT
+        MENUITEM "分拆(&L)", ID_VIEW_SPLIT
         MENUITEM SEPARATOR
         MENUITEM "重新整理(&R)\tF5", ID_VIEW_REFRESH
     END
@@ -108,25 +113,25 @@ BEGIN
         BEGIN
             MENUITEM "機碼(&K)", ID_EDIT_NEW_KEY
             MENUITEM SEPARATOR
-            MENUITEM "字元串值(&S)", ID_EDIT_NEW_STRINGVALUE
+            MENUITEM "字串值(&S)", ID_EDIT_NEW_STRINGVALUE
             MENUITEM "二進制值(&B)", ID_EDIT_NEW_BINARYVALUE
             MENUITEM "DWORD 值(&D)", ID_EDIT_NEW_DWORDVALUE
-            MENUITEM "多字元串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
-            MENUITEM "可擴充字元串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
+            MENUITEM "多字串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
+            MENUITEM "可擴充字串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
         END
     END
     POPUP ""
     BEGIN
-        MENUITEM "展開/摺疊", ID_TREE_EXPANDBRANCH
-        POPUP "新建(&N)"
+        MENUITEM "展開／摺疊", ID_TREE_EXPANDBRANCH
+        POPUP "新增(&N)"
         BEGIN
             MENUITEM "機碼(&K)", ID_EDIT_NEW_KEY
             MENUITEM SEPARATOR
-            MENUITEM "字元串值(&S)", ID_EDIT_NEW_STRINGVALUE
+            MENUITEM "字串值(&S)", ID_EDIT_NEW_STRINGVALUE
             MENUITEM "二進制值(&B)", ID_EDIT_NEW_BINARYVALUE
             MENUITEM "DWORD 值(&D)", ID_EDIT_NEW_DWORDVALUE
-            MENUITEM "多字元串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
-            MENUITEM "可擴充字元串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
+            MENUITEM "多字串值(&M)", ID_EDIT_NEW_MULTISTRINGVALUE
+            MENUITEM "可擴充字串值(&E)", ID_EDIT_NEW_EXPANDABLESTRINGVALUE
         END
         MENUITEM "搜尋(&F)...", ID_EDIT_FIND
         MENUITEM SEPARATOR
@@ -161,12 +166,12 @@ END
 
 IDD_EDIT_STRING DIALOGEX 32, 24, 252, 84
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "編輯字元串"
+CAPTION "編輯字串"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "數值名稱(&N):", IDC_STATIC, 6, 6, 134, 8
+    LTEXT "值名稱(&N)：", IDC_STATIC, 6, 6, 134, 8
     EDITTEXT IDC_VALUE_NAME, 6, 17, 240, 12, ES_AUTOHSCROLL | ES_READONLY
-    LTEXT "數值資料(&V):", IDC_STATIC, 6, 35, 161, 8
+    LTEXT "值資料(&V)：", IDC_STATIC, 6, 35, 161, 8
     EDITTEXT IDC_VALUE_DATA, 6, 46, 240, 12, ES_AUTOHSCROLL
     DEFPUSHBUTTON "確定", IDOK, 142, 64, 50, 14
     PUSHBUTTON "取消", IDCANCEL, 196, 64, 50, 14
@@ -174,12 +179,12 @@ END
 
 IDD_EDIT_MULTI_STRING DIALOGEX 32, 24, 252, 174
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "編輯多字元串"
+CAPTION "編輯多字串"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "數值名稱(&N):", IDC_STATIC, 6, 6, 134, 8
+    LTEXT "值名稱(&N)：", IDC_STATIC, 6, 6, 134, 8
     EDITTEXT IDC_VALUE_NAME, 6, 17, 240, 12, ES_AUTOHSCROLL | ES_READONLY
-    LTEXT "數值資料(&V):", IDC_STATIC, 6, 35, 161, 8
+    LTEXT "值資料(&V)：", IDC_STATIC, 6, 35, 161, 8
     EDITTEXT IDC_VALUE_DATA, 6, 46, 240, 102, ES_AUTOHSCROLL | ES_MULTILINE |
              ES_WANTRETURN | ES_AUTOVSCROLL | WS_VSCROLL
     DEFPUSHBUTTON "確定", IDOK, 142, 154, 50, 14
@@ -188,12 +193,12 @@ END
 
 IDD_EDIT_BIN_DATA DIALOGEX 32, 24, 252, 174
 STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CONTEXTHELP | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "編輯二進制數值"
+CAPTION "編輯二進制值"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "數值名稱(&N):", IDC_STATIC, 6, 6, 134, 8
+    LTEXT "值名稱(&N)：", IDC_STATIC, 6, 6, 134, 8
     EDITTEXT IDC_VALUE_NAME, 6, 17, 240, 12, ES_AUTOHSCROLL | ES_READONLY
-    LTEXT "數值資料(&V):", IDC_STATIC, 6, 35, 161, 8
+    LTEXT "值資料(&V)：", IDC_STATIC, 6, 35, 161, 8
     CONTROL "", IDC_VALUE_DATA, "HexEdit32", WS_VSCROLL | WS_BORDER | WS_TABSTOP, 6, 46, 240, 102
     DEFPUSHBUTTON "確定", IDOK, 142, 154, 50, 14
     PUSHBUTTON "取消", IDCANCEL, 196, 154, 50, 14
@@ -204,9 +209,9 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CONTEXTHELP | WS_POPUP | 
 CAPTION "編輯 DWORD 值"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "數值名稱(&N):", IDC_STATIC, 6, 6, 134, 8
+    LTEXT "值名稱(&N)：", IDC_STATIC, 6, 6, 134, 8
     EDITTEXT IDC_VALUE_NAME, 6, 17, 240, 12, ES_AUTOHSCROLL | ES_READONLY
-    LTEXT "數值資料(&V):", IDC_STATIC, 6, 35, 161, 8
+    LTEXT "值資料(&V)：", IDC_STATIC, 6, 35, 161, 8
     EDITTEXT IDC_VALUE_DATA, 6, 46, 116, 12, ES_AUTOHSCROLL
     GROUPBOX "基數", IDC_STATIC, 130, 35, 116, 39
     AUTORADIOBUTTON "十六進制(&H)", IDC_FORMAT_HEX, 141, 46, 60, 10, WS_GROUP
@@ -231,36 +236,36 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | DS_NOIDLEMSG | DS_CONTEXTHELP | WS_POPUP | 
 CAPTION "資源"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "DMA:", IDC_STATIC, 10, 5, 20, 8
+    LTEXT "DMA：", IDC_STATIC, 10, 5, 20, 8
     CONTROL "", IDC_DMA_LIST, "SysListView32", LVS_REPORT | LVS_NOSORTHEADER |
             LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP, 10, 15, 261, 31
-    LTEXT "中斷:", IDC_STATIC, 10, 48, 35, 8
+    LTEXT "中斷：", IDC_STATIC, 10, 48, 35, 8
     CONTROL "", IDC_IRQ_LIST, "SysListView32", LVS_REPORT | LVS_NOSORTHEADER |
             LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP, 10, 58, 261, 31
-    LTEXT "記憶體:", IDC_STATIC, 10, 91, 32, 8
+    LTEXT "記憶體：", IDC_STATIC, 10, 91, 32, 8
     CONTROL "", IDC_MEMORY_LIST, "SysListView32", LVS_REPORT | LVS_NOSORTHEADER |
             LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP, 10, 101, 261, 31
-    LTEXT "埠:", IDC_STATIC, 10, 134, 38, 8
+    LTEXT "埠：", IDC_STATIC, 10, 134, 38, 8
     CONTROL "", IDC_PORT_LIST, "SysListView32", LVS_REPORT | LVS_NOSORTHEADER |
             LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP, 10, 144, 261, 31
-    LTEXT "裝置特定嘅資料:", IDC_STATIC, 10, 177, 80, 8
+    LTEXT "裝置特定的資料：", IDC_STATIC, 10, 177, 80, 8
     CONTROL "", IDC_DEVICE_LIST, "SysListView32", LVS_REPORT | LVS_NOSORTHEADER |
             LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP, 10, 188, 261, 31
     GROUPBOX "用法", IDC_STATIC, 10, 219, 125, 39
     LTEXT "待定", IDC_UNDETERMINED, 18, 230, 46, 8, WS_DISABLED
     LTEXT "共享", IDC_SHARED, 18, 240, 48, 8, WS_DISABLED
     LTEXT "專用裝置", IDC_DEVICE_EXCLUSIVE, 72, 230, 58, 8, WS_DISABLED
-    LTEXT "專用嘅驅動程式", IDC_DRIVER_EXCLUSIVE, 72, 240, 54, 8, WS_DISABLED
-    RTEXT "分介面類型:", IDC_STATIC, 144, 220, 58, 8
+    LTEXT "專用驅動程式", IDC_DRIVER_EXCLUSIVE, 72, 240, 54, 8, WS_DISABLED
+    RTEXT "分介面類型：", IDC_STATIC, 144, 220, 58, 8
     LTEXT "", IDC_INTERFACETYPE, 205, 220, 66, 8
-    RTEXT "匯流排編號:", IDC_STATIC, 151, 230, 51, 8
+    RTEXT "匯流排編號：", IDC_STATIC, 151, 230, 51, 8
     LTEXT "", IDC_BUSNUMBER, 205, 230, 66, 8
-    RTEXT "版本:", IDC_STATIC, 151, 240, 51, 8
+    RTEXT "版本：", IDC_STATIC, 151, 240, 51, 8
     LTEXT "", IDC_VERSION, 205, 240, 66, 8
-    RTEXT "修訂本:", IDC_STATIC, 151, 250, 51, 8
+    RTEXT "修訂本：", IDC_STATIC, 151, 250, 51, 8
     LTEXT "", IDC_REVISION, 205, 250, 66, 8
     DEFPUSHBUTTON "確定", IDOK, 92, 263, 40, 14
-    PUSHBUTTON "資料...(&D)", IDC_SHOW_RESOURCE_DATA, 148, 263, 40, 14, WS_DISABLED
+    PUSHBUTTON "資料(&D)...", IDC_SHOW_RESOURCE_DATA, 148, 263, 40, 14, WS_DISABLED
 END
 
 /* String Tables */
@@ -281,84 +286,84 @@ END
 
 STRINGTABLE
 BEGIN
-    ID_REGISTRY_MENU "包含與整個登錄工作相關嘅命令。"
-    ID_EDIT_MENU "包含編輯值或機碼嘅命令。"
-    ID_VIEW_MENU "包含自訂登錄視窗嘅命令。"
-    ID_FAVOURITES_MENU "包含訪問常用機碼時所用嘅命令。"
-    ID_HELP_MENU "包含顯示幫助以及登錄編輯程式有關資訊嘅命令。"
-    ID_EDIT_NEW_MENU "包含新增機碼或值嘅命令。"
+    ID_REGISTRY_MENU "包含與整個登錄工作相關的命令。"
+    ID_EDIT_MENU "包含編輯值或機碼的命令。"
+    ID_VIEW_MENU "包含自訂登錄視窗的命令。"
+    ID_FAVOURITES_MENU "包含訪問常用機碼時所用的命令。"
+    ID_HELP_MENU "包含顯示幫助以及登錄編輯程式有關資訊的命令。"
+    ID_EDIT_NEW_MENU "包含新增機碼或值的命令。"
 END
 
 STRINGTABLE
 BEGIN
-    ID_EDIT_MODIFY "修改該值嘅資料。"
+    ID_EDIT_MODIFY "修改該值的資料。"
     ID_EDIT_NEW_KEY "新增新機碼。"
-    ID_EDIT_NEW_STRINGVALUE "新增新字元串值。"
+    ID_EDIT_NEW_STRINGVALUE "新增新字串值。"
     ID_EDIT_NEW_BINARYVALUE "新增新二進制值。"
     ID_EDIT_NEW_DWORDVALUE "新增新 DWORD 值。"
     ID_REGISTRY_IMPORTREGISTRYFILE "將檔案匯入到登錄中。"
     ID_REGISTRY_EXPORTREGISTRYFILE "將登錄全部或部分匯出到檔案中。"
     ID_REGISTRY_LOADHIVE "載入 Hive 控制檔到登錄中。"
     ID_REGISTRY_UNLOADHIVE "從登錄中解除載入 Hive 控制檔。"
-    ID_REGISTRY_CONNECTNETWORKREGISTRY "連線到遠端電腦嘅登錄。"
-    ID_REGISTRY_DISCONNECTNETWORKREGISTRY "斷開與遠端電腦登錄嘅連線。"
+    ID_REGISTRY_CONNECTNETWORKREGISTRY "連線到遠端電腦的登錄。"
+    ID_REGISTRY_DISCONNECTNETWORKREGISTRY "斷開與遠端電腦登錄的連線。"
     ID_REGISTRY_PRINT "列印所有或部分登錄。"
 /*    ID_HELP_HELPTOPICS "開啟登錄編輯程式幫助。" */
-    ID_HELP_ABOUT "顯示程式資訊、版本號和著作權。"
+    ID_HELP_ABOUT "顯示程式資訊、版本號和版權。"
 END
 
 STRINGTABLE
 BEGIN
-    ID_REGISTRY_EXIT "退出登錄編輯程式。"
-    ID_FAVOURITES_ADDTOFAVOURITES "將機碼新增到我的最愛列表中。"
+    ID_REGISTRY_EXIT "結束登錄編輯程式。"
+    ID_FAVOURITES_ADDTOFAVOURITES "將機碼新增到我的最愛列表。"
     ID_FAVOURITES_REMOVEFAVOURITE "將機碼從我的最愛列表中刪除。"
     ID_VIEW_STATUSBAR "顯示或隱藏狀態列。"
-    ID_VIEW_SPLIT "改變兩窗格嘅拆分位置。"
+    ID_VIEW_SPLIT "變更兩窗格的分拆位置。"
     ID_VIEW_REFRESH "重新整理視窗。"
-    ID_EDIT_DELETE "刪除所選內容。"
+    ID_EDIT_DELETE "刪除選定內容。"
     ID_EDIT_RENAME "重新命名選定內容。"
-    ID_EDIT_COPYKEYNAME "將選定機碼嘅名稱複製到剪貼簿上。"
-    ID_EDIT_FIND "喺機碼、值或資料裡找到文字字元串。"
-    ID_EDIT_FINDNEXT "繼續搜尋上次搜尋嘅文字。"
+    ID_EDIT_COPYKEYNAME "將選定機碼的名稱複製到剪貼簿上。"
+    ID_EDIT_FIND "在機碼、值或資料中尋找文字字串。"
+    ID_EDIT_FINDNEXT "繼續搜尋上次搜尋的文字。"
 END
 
 STRINGTABLE
 BEGIN
     IDS_ERROR "錯誤"
     IDS_WARNING "警告"
-    IDS_BAD_KEY "不能查詢機碼 '%s'"
-    IDS_BAD_VALUE "不能查詢值 '%s'"
-    IDS_UNSUPPORTED_TYPE "不能編輯呢類型嘅機碼 (%ld)"
-    IDS_TOO_BIG_VALUE "數值過大 (%ld)"
-    IDS_MULTI_SZ_EMPTY_STRING "REG_MULTI_SZ 類型的資料不能包含空字元串。\r\n空字元串已從註冊表編輯器中刪除。"
-    IDS_QUERY_DELETE_KEY_ONE "確實要刪除這個機碼嗎?"
-    IDS_QUERY_DELETE_KEY_MORE "確實要刪除這些機碼嗎?"
+    IDS_BAD_KEY "不能查詢機碼「%s」"
+    IDS_BAD_VALUE "不能查詢值「%s」"
+    IDS_UNSUPPORTED_TYPE "不能編輯這類型的機碼（%ld）"
+    IDS_TOO_BIG_VALUE "數值過大（%ld）"
+    IDS_MULTI_SZ_EMPTY_STRING "REG_MULTI_SZ 類型的資料不能包括空字元串。\r\n空字串已從註冊表編輯器中刪除。"
+    IDS_QUERY_DELETE_KEY_ONE "確定要刪除這個機碼嗎？"
+    IDS_QUERY_DELETE_KEY_MORE "確定要刪除這些機碼嗎？"
     IDS_QUERY_DELETE_KEY_CONFIRM "確認刪除機碼"
-    IDS_QUERY_DELETE_ONE "確實要刪除依個數值嗎?"
-    IDS_QUERY_DELETE_MORE "確實要刪除呢啲數值嗎?"
-    IDS_QUERY_DELETE_CONFIRM "確認數值刪除"
-    IDS_ERR_DELVAL_CAPTION "刪除值時出錯。"
-    IDS_ERR_DELETEVALUE "無法刪除所有指定嘅值!"
-    IDS_ERR_RENVAL_CAPTION "重新命名值時產生錯誤"
-    IDS_ERR_RENVAL_TOEMPTY "登錄編輯程式無法重新命名 %s。指定嘅值名為空。請鍵入其他名稱，再試一次。"
+    IDS_QUERY_DELETE_ONE "確定要刪除這個值嗎？"
+    IDS_QUERY_DELETE_MORE "確定要刪除這些值嗎？"
+    IDS_QUERY_DELETE_CONFIRM "確認刪除值"
+    IDS_ERR_DELVAL_CAPTION "刪除值時發生錯誤。"
+    IDS_ERR_DELETEVALUE "無法刪除所有指定的值！"
+    IDS_ERR_RENVAL_CAPTION "重新命名值時發生錯誤"
+    IDS_ERR_RENVAL_TOEMPTY "登錄編輯程式無法重新命名 %s。指定的值名稱為空。請輸入其他名稱，然後再試一次。"
     IDS_QUERY_IMPORT_HIVE_CAPTION "確認恢復機碼"
-    IDS_QUERY_IMPORT_HIVE_MSG "一個機碼將喺目前選定嘅機碼嘅頂部恢復。\n所有依個機碼嘅值和子機碼都將被刪除。\n您要繼續該操作嗎？"
+    IDS_QUERY_IMPORT_HIVE_MSG "一個機碼將在目前選定的機碼的頂部恢復。\n所有這個機碼的值和子機碼都將被刪除。\n您要繼續嗎？"
     IDS_NEW_KEY "新機碼 #%d"
     IDS_NEW_VALUE "新值 #%d"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_BINARY_EMPTY "(長度為零嘅二進位值)"
-    IDS_DEFAULT_VALUE_NAME "(預設)"
-    IDS_VALUE_NOT_SET "(數值未設定)"
-    IDS_UNKNOWN_TYPE "未知類型: (0x%lx)"
+    IDS_BINARY_EMPTY "（長度為零的二進位值）"
+    IDS_DEFAULT_VALUE_NAME "（預設）"
+    IDS_VALUE_NOT_SET "（未設定數值）"
+    IDS_UNKNOWN_TYPE "未知類型：（0x%lx）"
     IDS_MY_COMPUTER "我的電腦"
     IDS_IMPORT_REG_FILE "載入 Hive 控制檔"
     IDS_EXPORT_REG_FILE "解除載入 Hive 控制檔"
-    IDS_LOAD_HIVE "載入配置單元"
-    IDS_UNLOAD_HIVE "解除安裝配置單元"
-    IDS_INVALID_DWORD "(不正確嘅 DWORD 值)"
+    IDS_LOAD_HIVE "載入 Hive"
+    IDS_UNLOAD_HIVE "解除載入 Hive"
+    IDS_INVALID_DWORD "（不正確的 DWORD 值）"
 END
 
 STRINGTABLE
@@ -401,16 +406,16 @@ STRINGTABLE
 BEGIN
     IDS_EXPAND "展開"
     IDS_COLLAPSE "摺疊"
-    IDS_GOTO_SUGGESTED_KEY "轉到(&G)'%s'"
+    IDS_GOTO_SUGGESTED_KEY "轉到「%s」(&G)"
     IDS_FINISHEDFIND "登錄搜尋完畢。"
 END
 
 STRINGTABLE
 BEGIN
-    IDS_IMPORT_PROMPT "新增資訊可無意中更改或刪除值並導致元件停止正常工作。\n如果您不信任此 '%s' 中嘅資訊嘅來源，並不將其新增到登錄。\n\n是否確實要繼續?"
-    IDS_IMPORT_OK "'%s' 中包含嘅值和機碼已成功新增到登錄。"
-    IDS_IMPORT_ERROR "無法將 '%s' 匯入： 開啟該檔案時出錯。可能有磁碟或檔案系統錯誤，或者檔案可能不存在。"
-    IDS_EXPORT_ERROR "無法匯出 '%s' ： 建立或寫入檔案時出錯。可能有磁碟或檔案系統錯誤。"
+    IDS_IMPORT_PROMPT "新增資訊可能會意外更改或刪除值並導致元件停止正常工作。\n如果您不信任此「%s」中的資訊來源，請不要將其新增到登錄。\n\n您要繼續嗎？"
+    IDS_IMPORT_OK "「%s」中包含的值和機碼已成功新增到登錄。"
+    IDS_IMPORT_ERROR "無法將匯入「%s」：開啟該檔案時出錯。可能有磁碟或檔案系統錯誤，或者檔案可能不存在。"
+    IDS_EXPORT_ERROR "無法匯出「%s」：建立或寫入檔案時出錯。可能有磁碟或檔案系統錯誤。"
 END
 
 STRINGTABLE
@@ -442,7 +447,7 @@ BEGIN
     IDS_INTERRUPT_LEVEL_SENSITIVE "級別敏感"
     IDS_MEMORY_READ_ONLY "唯讀"
     IDS_MEMORY_WRITE_ONLY "唯寫"
-    IDS_MEMORY_READ_WRITE "讀取/ 寫入"
+    IDS_MEMORY_READ_WRITE "讀取／寫入"
 END
 
 STRINGTABLE
@@ -464,7 +469,7 @@ BEGIN
     IDS_BUS_INTERNALPOWERBUS "Internal Power Bus"
     IDS_BUS_PNPISABUS "PnP-ISA Bus"
     IDS_BUS_PNPBUS "PnP Bus"
-    IDS_BUS_UNKNOWNTYPE "未知的介面類型"
+    IDS_BUS_UNKNOWNTYPE "不明介面類型"
 END
 
 /*****************************************************************/
@@ -512,7 +517,7 @@ BEGIN
     PUSHBUTTON "取消", IDCANCEL, 7, 114, 50, 14
     CONTROL "List1", IDC_FAVORITESLIST, "SysListView32", LVS_LIST | WS_BORDER |
             WS_TABSTOP, 7, 20, 150, 90
-    LTEXT "選擇收藏夾(&S):", IDC_STATIC, 7, 7, 99, 12
+    LTEXT "選擇資料夾(&S)：", IDC_STATIC, 7, 7, 99, 12
 END
 
 IDD_FIND DIALOGEX 0, 0, 275, 82
@@ -523,7 +528,7 @@ BEGIN
     DEFPUSHBUTTON "搜尋下一個(&F)", IDOK, 205, 7, 55, 14
     PUSHBUTTON "取消", IDCANCEL, 205, 24, 55, 14
     GROUPBOX "檢視", IDC_STATIC, 7, 25, 63, 51
-    LTEXT "搜尋目標(&N):", IDC_STATIC, 7, 8, 50, 10
+    LTEXT "搜尋目標(&N)：", IDC_STATIC, 7, 8, 50, 10
     EDITTEXT IDC_FINDWHAT, 55, 7, 142, 13, ES_AUTOHSCROLL
     CONTROL "機碼(&K)", IDC_LOOKAT_KEYS, "Button", BS_AUTOCHECKBOX |
             WS_TABSTOP, 14, 36, 35, 8

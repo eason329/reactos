@@ -1,7 +1,14 @@
-/* Translation has been created by Luo Yufan (njlyf2011@hotmail.com) */
+/*
+ * PROJECT:      ReactOS system libraries
+ * COPYRIGHT:    GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
+ * PURPOSE:      Chinese (Hong Kong) resource file
+ * TRANSLATORS:  Copyright 2018 Luo Yufan <njlyf2011@hotmail.com>
+ * REFERENCES:   Chinese (Traditional) resource translation
+ */
 
-/* ATTENTION: If there is no special situation, please DO NOT change 
-English folder names into Chinese, or it may cause problems in the system. */
+/* ATTENTION: Please DO NOT change English folder names into Chinese
+ *            unless necessary, or it may cause problems in the system.
+ */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_HONGKONG
 

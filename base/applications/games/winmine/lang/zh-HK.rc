@@ -1,7 +1,7 @@
 /*
  * PROJECT:     ReactOS WineMine
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
- * PURPOSE:     Cantonese (Hong Kong) resource file
+ * PURPOSE:     Chinese (Hong Kong) resource file
  * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Traditional) resource translation
  */
@@ -24,7 +24,7 @@ BEGIN
         MENUITEM "標出問題(&M)", IDM_MARKQ
         MENUITEM SEPARATOR
         MENUITEM "新手(&B)", IDM_BEGINNER
-        MENUITEM "高級(&A)", IDM_ADVANCED
+        MENUITEM "進階(&A)", IDM_ADVANCED
         MENUITEM "專家(&E)", IDM_EXPERT
         MENUITEM "自訂(&C)", IDM_CUSTOM
         MENUITEM SEPARATOR
@@ -60,7 +60,7 @@ STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_POPUP | DS_SHELL
 CAPTION "恭喜！"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "請輸入你嘅名稱", -1, 10, 10, 150, 10
+    LTEXT "請輸入您的名稱", -1, 10, 10, 150, 10
     EDITTEXT IDC_EDITNAME, 25, 20, 110, 12
     DEFPUSHBUTTON "確定", IDOK, 60, 40, 40, 15
 END
