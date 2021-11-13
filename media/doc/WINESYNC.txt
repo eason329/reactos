@@ -11,7 +11,7 @@ If you find that a function in ReactOS that is not implemented properly
 and is based on WINE sources, check the latest Winehq CVS and see if
 it has been fixed there. If so, please submit a patch to
 ros-dev@reactos.org. Otherwise please send a patch to both
-wine-patches@winehq.com and ros-dev@reactos.org
+wine-devel@winehq.org and ros-dev@reactos.org
 
 The following build tools are shared with Wine.
 
