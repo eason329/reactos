@@ -1,4 +1,10 @@
-/* Traditional Chinese translation by Henry Tang Ih 2016 (henrytang2@hotmail.com) */
+/* 
+ * PROJECT:     Service Control Manager
+ * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
+ * PURPOSE:     Chinese (Traditional) resource file
+ * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
+ *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
@@ -8,7 +14,7 @@ BEGIN
     IDS_SERVICE_STOP    "停止"
     IDS_SERVICE_PAUSE   "暫停"
     IDS_SERVICE_RESUME  "繼續"
-    IDS_SERVICE_RUNNING "運行中"
+    IDS_SERVICE_RUNNING "執行中"
     IDS_SERVICE_STOPPED "已停止"
     IDS_SERVICE_PAUSED  "已暫停"
 END

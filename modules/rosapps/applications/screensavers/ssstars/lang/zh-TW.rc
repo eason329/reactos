@@ -2,7 +2,7 @@
  * PROJECT:     Star field screensaver
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
- * TRANSLATORS: Copyright 2021 Chan Chilung (eason066@gmail.com)
+ * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -54,6 +54,6 @@ BEGIN
     IDS_ROTATION_NONE       "無"
     IDS_ROTATION_LINEAR     "線性"
     IDS_ROTATION_PERIODIC   "循環"
-    IDS_LICENSE             "恒星是在 GNU GPL 許可證下發佈的免費軟件。"
+    IDS_LICENSE             "恒星是在 GNU GPL 許可證下發布的免費軟體。"
     IDS_AUTHOR              "開發者：Carlo Bramini"
 END

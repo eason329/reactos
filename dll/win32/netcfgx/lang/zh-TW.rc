@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copytight 2016 Henry Tang Ih <henrytang2@hotmail.com>
- *              Copytight 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copytight 2020-2022 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -26,7 +26,7 @@ BEGIN
     CONTROL "自動獲得 DNS 伺服器位址", IDC_AUTODNS, "BUTTON", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 14, 139, 210, 12
     GROUPBOX "", -1, 9, 157, 228, 47, BS_GROUPBOX
     CONTROL "使用以下的 DNS 伺服器位址(&U)", IDC_FIXEDDNS, "BUTTON", BS_AUTORADIOBUTTON, 14, 155, 152, 12
-    LTEXT "首選的 DNS 伺服器:", -1, 14, 171, 135, 8
+    LTEXT "首選的 DNS 伺服器：", -1, 14, 171, 135, 8
     CONTROL "", IDC_DNS1, "SysIPAddress32", WS_TABSTOP, 144, 171 - 2, 85, 12
     LTEXT " DNS 伺服器：", -1, 14, 186, 135, 8
     CONTROL "", IDC_DNS2, "SysIPAddress32", WS_TABSTOP, 144, 186 - 2, 85, 12
@@ -38,7 +38,7 @@ STYLE DS_SHELLFONT | WS_CHILD | WS_CAPTION
 CAPTION "其他設定"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "如果這台電腦是被用在多個網路上，在下列輸入其他 IP 設定", -1, 9, 9, 220, 20
+    LTEXT "如果這臺電腦是被用在多個網路上，請在下列輸入其他 IP 設定", -1, 9, 9, 220, 20
     CONTROL "自動專用 IP 位址(&T)", IDC_USEDHCP, "BUTTON", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 14, 40, 210, 12
     GROUPBOX "", -1, 9, 55, 228, 80, BS_GROUPBOX
     CONTROL "使用者設定(&S)", IDC_NODHCP, "BUTTON", BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP, 14, 55, 70, 12

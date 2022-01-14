@@ -40,7 +40,7 @@ BEGIN
     COMBOBOX IDC_SOUND_SCHEME, 8, 53, 230, 46, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     PUSHBUTTON "另存新檔(&E)...", IDC_SAVEAS_BTN, 134, 70, 50, 15
     PUSHBUTTON "刪除(&D)", IDC_DELETE_BTN, 188, 70, 50, 15
-    LTEXT "要更改聲音，請單擊下列表中的程式事件然後選擇聲音。您可將更改儲存為新聲音方案。", -1, 8, 90, 230, 40
+    LTEXT "要更改聲音，請按列表中的程式事件，然後選擇聲音。您可以將變更儲存為新的聲音方案。", -1, 8, 90, 230, 40
     LTEXT "程式事件(&P)︰", -1, 8, 118, 150, 17
     CONTROL "", IDC_SCHEME_LIST, "SysTreeView32", TVS_DISABLEDRAGDROP| TVS_SHOWSELALWAYS | WS_CHILD | WS_VISIBLE| WS_BORDER | WS_TABSTOP, 8, 130, 230, 60
     LTEXT "聲音(&S)︰", IDC_TEXT_SOUND, 8, 194, 80, 17, WS_DISABLED

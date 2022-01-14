@@ -72,7 +72,7 @@ Language=Chinese
 The workstation driver is not installed.
 .
 Language=Taiwanese
-The workstation driver is not installed.
+沒有安裝工作站驅動程式。
 .
 
 MessageId=2103
@@ -101,7 +101,7 @@ Language=Chinese
 The server could not be located.
 .
 Language=Taiwanese
-The server could not be located.
+找不到伺服器。
 .
 
 MessageId=2104
@@ -130,7 +130,7 @@ Language=Chinese
 An internal error occurred. The network cannot access a shared memory segment.
 .
 Language=Taiwanese
-An internal error occurred. The network cannot access a shared memory segment.
+發生了內部錯誤，網路無法存取共用的記憶體區段。
 .
 
 MessageId=2105
@@ -159,7 +159,7 @@ Language=Chinese
 A network resource shortage occurred.
 .
 Language=Taiwanese
-A network resource shortage occurred.
+網路資源不足。
 .
 
 MessageId=2106
@@ -188,7 +188,7 @@ Language=Chinese
 This operation is not supported on workstations.
 .
 Language=Taiwanese
-This operation is not supported on workstations.
+工作站不支援這個操作。
 .
 
 MessageId=2107
@@ -217,7 +217,7 @@ Language=Chinese
 The device is not connected.
 .
 Language=Taiwanese
-The device is not connected.
+裝置沒有連線。
 .
 
 MessageId=2114
@@ -246,7 +246,7 @@ Language=Chinese
 The Server service is not started.
 .
 Language=Taiwanese
-The Server service is not started.
+伺服器服務尚未啟動。
 .
 
 MessageId=2115
@@ -275,7 +275,7 @@ Language=Chinese
 The queue is empty.
 .
 Language=Taiwanese
-The queue is empty.
+佇列是空的。
 .
 
 MessageId=2116
