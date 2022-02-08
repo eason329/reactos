@@ -25,8 +25,8 @@ list(APPEND FONT_FILES
     FreeSansBold.ttf
     FreeSansBoldOblique.ttf
     FreeSansOblique.ttf
-    #FSEX301.ttf # disabled
-    #FSEX301-L2.ttf # disabled
+    FSEX301.ttf
+    FSEX301-L2.ttf
     georgia.ttf
     georgiab.ttf
     georgiai.ttf
