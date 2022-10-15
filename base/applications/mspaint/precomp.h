@@ -1,6 +1,11 @@
 #ifndef _MSPAINT_H
 #define _MSPAINT_H
 
+#ifdef NDEBUG
+    #undef DBG
+    #undef _DEBUG
+#endif
+
 #include <stdarg.h>
 
 #include <windef.h>

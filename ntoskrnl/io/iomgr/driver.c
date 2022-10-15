@@ -1022,13 +1022,19 @@ IopInitializeBootDrivers(VOID)
 
     /* Get highest group order index */
     IopGroupIndex = PpInitGetGroupOrderIndex(NULL);
-    if (IopGroupIndex == 0xFFFF) ASSERT(FALSE);
+    if (IopGroupIndex == 0xFFFF)
+    {
+        UNIMPLEMENTED_DBGBREAK();
+    }
 
     /* Allocate the group table */
     IopGroupTable = ExAllocatePoolWithTag(PagedPool,
                                           IopGroupIndex * sizeof(LIST_ENTRY),
                                           TAG_IO);
-    if (IopGroupTable == NULL) ASSERT(FALSE);
+    if (IopGroupTable == NULL)
+    {
+        UNIMPLEMENTED_DBGBREAK();
+    }
 
     /* Initialize the group table lists */
     for (i = 0; i < IopGroupIndex; i++) InitializeListHead(&IopGroupTable[i]);

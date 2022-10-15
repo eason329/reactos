@@ -35,6 +35,7 @@ list(APPEND SOURCE
     NtQueryInformationFile.c
     NtQueryInformationProcess.c
     NtQueryInformationThread.c
+    NtQueryInformationToken.c
     NtQueryKey.c
     NtQuerySystemEnvironmentValue.c
     NtQuerySystemInformation.c
@@ -45,6 +46,7 @@ list(APPEND SOURCE
     NtSetInformationFile.c
     NtSetInformationProcess.c
     NtSetInformationThread.c
+    NtSetInformationToken.c
     NtSetValueKey.c
     NtSetVolumeInformationFile.c
     NtUnloadDriver.c
@@ -83,6 +85,7 @@ list(APPEND SOURCE
     RtlpEnsureBufferSize.c
     RtlQueryTimeZoneInfo.c
     RtlReAllocateHeap.c
+    RtlRemovePrivileges.c
     RtlUnicodeStringToAnsiString.c
     RtlUnicodeStringToCountedOemString.c
     RtlUnicodeToOemN.c
@@ -92,6 +95,7 @@ list(APPEND SOURCE
     RtlxUnicodeStringToOemSize.c
     StackOverflow.c
     SystemInfo.c
+    UserModeException.c
     Timer.c)
 
 if(ARCH STREQUAL "i386")

@@ -45,6 +45,11 @@
 #include <user32.h>
 #define WIN32_LEAN_AND_MEAN
 #include <usp10.h>
+#ifdef __REACTOS__
+#define ImmGetContext               IMM_FN(ImmGetContext)
+#define ImmGetCompositionStringW    IMM_FN(ImmGetCompositionStringW)
+#define ImmReleaseContext           IMM_FN(ImmReleaseContext)
+#endif
 
 WINE_DEFAULT_DEBUG_CHANNEL(edit);
 WINE_DECLARE_DEBUG_CHANNEL(combo);
@@ -97,6 +102,9 @@ typedef struct
 	HFONT font;			/* NULL means standard system font */
 	INT x_offset;			/* scroll offset	for multi lines this is in pixels
 								for single lines it's in characters */
+#ifdef __REACTOS__
+    DWORD dwCaretWidth;
+#endif
 	INT line_height;		/* height of a screen line in pixels */
 	INT char_width;			/* average character width in pixels */
 	DWORD style;			/* sane version of wnd->dwStyle */
@@ -3900,7 +3908,12 @@ static void EDIT_WM_SetFocus(EDITSTATE *es)
             ReleaseDC(es->hwndSelf, hdc);
         }
 
+#ifdef __REACTOS__
+    SystemParametersInfo(SPI_GETCARETWIDTH, 0, &es->dwCaretWidth, 0);
+    CreateCaret(es->hwndSelf, NULL, es->dwCaretWidth, es->line_height);
+#else
 	CreateCaret(es->hwndSelf, 0, 1, es->line_height);
+#endif
 	EDIT_SetCaretPos(es, es->selection_end,
 			 es->flags & EF_AFTER_WRAP);
 	ShowCaret(es->hwndSelf);
@@ -3951,7 +3964,11 @@ static void EDIT_WM_SetFont(EDITSTATE *es, HFONT font, BOOL redraw)
 		EDIT_UpdateText(es, NULL, TRUE);
 	if (es->flags & EF_FOCUSED) {
 		DestroyCaret();
+#ifdef __REACTOS__
+		CreateCaret(es->hwndSelf, NULL, es->dwCaretWidth, es->line_height);
+#else
 		CreateCaret(es->hwndSelf, 0, 1, es->line_height);
+#endif
 		EDIT_SetCaretPos(es, es->selection_end,
 				 es->flags & EF_AFTER_WRAP);
 		ShowCaret(es->hwndSelf);

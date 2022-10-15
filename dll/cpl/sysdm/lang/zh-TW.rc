@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang <henrytang2@hotmail.com>
- *              Copyright 2018 Luo Yufan <njlyf2011@hotmail.com>
+ *              Copyright 2018 Luke Luo <njlyf2011@hotmail.com>
  *              Copyright 2021 Chan Chilung <eason066@gmail.com>
  */
 
@@ -342,7 +342,7 @@ BEGIN
     IDS_PETABYTE "PB 記憶體"
     IDS_MEGAHERTZ "MHz"
     IDS_GIGAHERTZ "GHz"
-    IDS_UPTIME_FORMAT "%u 天， %02u:%02u:%02u"
+    IDS_UPTIME_FORMAT "%lu 天， %02lu:%02lu:%02lu"
     IDS_VARIABLE "變量"
     IDS_VALUE "值"
     IDS_NO_DUMP "（無）"

@@ -108,8 +108,8 @@ KiInitializePcr(IN PKIPCR Pcr,
     Pcr->MinorVersion = PCR_MINOR_VERSION;
 
     /* Set the PRCB Version */
-    Pcr->Prcb.MajorVersion = 1;
-    Pcr->Prcb.MinorVersion = 1;
+    Pcr->Prcb.MajorVersion = PRCB_MAJOR_VERSION;
+    Pcr->Prcb.MinorVersion = PRCB_MINOR_VERSION;
 
     /* Set the Build Type */
     Pcr->Prcb.BuildType = 0;
@@ -151,6 +151,9 @@ KiInitializePcr(IN PKIPCR Pcr,
     /* Clear DR6/7 to cleanup bootloader debugging */
     Pcr->Prcb.ProcessorState.SpecialRegisters.KernelDr6 = 0;
     Pcr->Prcb.ProcessorState.SpecialRegisters.KernelDr7 = 0;
+
+    /* Initialize MXCSR (all exceptions masked) */
+    Pcr->Prcb.MxCsr = INITIAL_MXCSR;
 
     /* Set the Current Thread */
     Pcr->Prcb.CurrentThread = IdleThread;
@@ -231,6 +234,9 @@ KiInitializeCpu(PKIPCR Pcr)
     Pat = (PAT_WB << 0)  | (PAT_WC << 8) | (PAT_UCM << 16) | (PAT_UC << 24) |
           (PAT_WB << 32) | (PAT_WC << 40) | (PAT_UCM << 48) | (PAT_UC << 56);
     __writemsr(MSR_PAT, Pat);
+
+    /* Initialize MXCSR */
+    _mm_setcsr(INITIAL_MXCSR);
 }
 
 VOID
