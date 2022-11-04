@@ -4,7 +4,7 @@
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
  *              Copyright 2018 Luke Luo <njlyf2011@hotmail.com>
- *              Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2022 Chilung Chan <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -35,7 +35,7 @@ BEGIN
     PUSHBUTTON "顏色(&C)...", IDC_COLOR_BUTTON, 188, 167, 55, 15
     LTEXT "位置：", IDC_STATIC, 188, 128, 55, 9
     COMBOBOX IDC_PLACEMENT_COMBO, 188, 139, 55, 54, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
-    PUSHBUTTON "Customize &Desktop...", IDC_DESKTOP_CUSTOM, 8, 194, 90, 15
+    PUSHBUTTON "自訂桌面(&D)...", IDC_DESKTOP_CUSTOM, 8, 194, 90, 15
 END
 
 IDD_SCREENSAVER DIALOGEX 0, 0, 246, 202
@@ -163,23 +163,23 @@ END
 
 IDD_DESKTOP_GENERAL DIALOGEX 0, 0, 224, 202
 STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
-CAPTION "General"
-FONT 8, "MS Shell Dlg"
+CAPTION "一般"
+FONT 9, "新細明體"
 BEGIN
-    GROUPBOX "Desktop icons", IDC_STATIC, 6, 4, 212, 40
-    CONTROL "My &Documents", IDC_ICONS_MYDOCS, "button",
+    GROUPBOX "桌面圖示", IDC_STATIC, 6, 4, 212, 40
+    CONTROL "我的文件(&D)", IDC_ICONS_MYDOCS, "button",
             BS_AUTOCHECKBOX | WS_TABSTOP, 14, 14, 100, 12
-    CONTROL "My &Network Places", IDC_ICONS_MYNET, "button",
+    CONTROL "網路上的芳鄰(&N)", IDC_ICONS_MYNET, "button",
             BS_AUTOCHECKBOX | WS_TABSTOP, 116, 14, 100, 12
-    CONTROL "&My Computer", IDC_ICONS_MYCOMP, "button",
+    CONTROL "我的電腦(&M)", IDC_ICONS_MYCOMP, "button",
             BS_AUTOCHECKBOX | WS_TABSTOP, 14, 28, 100, 12
-    CONTROL "&Internet Browser", IDC_ICONS_INTERNET, "button",
+    CONTROL "網際網路瀏覽器(&I)", IDC_ICONS_INTERNET, "button",
             BS_AUTOCHECKBOX | WS_TABSTOP, 116, 28, 100, 12
     CONTROL "", IDC_ICONS_LISTVIEW, "SysListView32",
             LVS_ICON | LVS_ALIGNLEFT | LVS_AUTOARRANGE | LVS_SINGLESEL | WS_BORDER | WS_TABSTOP | WS_HSCROLL,
             6, 60, 212, 56
-    PUSHBUTTON "C&hange Icon...", IDC_ICONS_CHANGEICON, 86, 120, 64, 15
-    PUSHBUTTON "Re&store Default", IDC_ICONS_SETDEFAULT, 154, 120, 64, 15
+    PUSHBUTTON "變更圖示(&H)...", IDC_ICONS_CHANGEICON, 86, 120, 64, 15
+    PUSHBUTTON "還原預設值(&S)", IDC_ICONS_SETDEFAULT, 154, 120, 64, 15
 END
 
 IDD_ADVANCED_GENERAL DIALOGEX 0, 0, 253, 204
@@ -242,7 +242,7 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_DESKTOP_ITEMS "Desktop Items"
+    IDS_DESKTOP_ITEMS "桌面項目"
 END
 
 STRINGTABLE

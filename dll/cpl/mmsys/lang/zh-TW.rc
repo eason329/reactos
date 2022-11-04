@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
- *              Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2022 Chilung Chan <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -175,11 +175,11 @@ FONT 9, "新細明體"
 BEGIN
     GROUPBOX "ReactOS 音訊", 10243, 7, 5, 213, 192
     ICON 4393, 10241, 26, 26, 20, 20
-    LTEXT "由於未啟用 ReactOS 音訊服務，這部電腦目前無法播放聲音", 10245, 60, 25, 150, 40
+    LTEXT "由於未啟用 ReactOS 音訊服務，此電腦目前無法播放聲音。", 10245, 60, 25, 150, 40
     AUTOCHECKBOX "啟用 ReactOS 音訊(&E)", 10253, 60, 68, 150, 9
     LTEXT "注意", 10246, 58, 87, 150, 11
     LTEXT "1. 您必須是管理員才能啟用此服務。如果您沒有以管理員身份登入，您將提示輸入管理員名稱和密碼。", 10247, 60, 100, 150, 40
-    LTEXT "2. 您啟用ReactOS音訊後，必須重新啟動電腦。", 10248, 60, 140, 150, 40
+    LTEXT "2. 您啟用 ReactOS 音訊後，必須重新啟動電腦。", 10248, 60, 140, 150, 40
 END
 
 IDD_MULTICHANNEL DIALOGEX 0, 0, 227, 218
@@ -187,7 +187,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUPWINDOW | WS_VISIBLE | WS_CAPTION
 CAPTION "多聲道"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "By moving the sliders below you can adjust the volume of all speakers connected to this computer.", 9506, 8, 4, 212, 24
+    LTEXT "您可以透過移動下面的滑桿來調整連接到此電腦的所有揚聲器的音量。", 9506, 8, 4, 212, 24
     LTEXT "低", 9473, 65, 31, 14, 8
     LTEXT "", 9472, 5, 31, 55, 8
     CONTROL "Slider1", 9475, "MSCTLS_TRACKBAR32", TBS_AUTOTICKS | TBS_DOWNISLEFT | WS_TABSTOP, 87, 29, 108, 17
@@ -255,7 +255,7 @@ BEGIN
     5828 "裝置連線"
     5829 "裝置中斷連線"
     5830 "裝置未能連線"
-    5831 "清空回收站"
+    5831 "清空資源回收筒"
     5832 "電池不足警報"
     5833 "最大化"
     5834 "選單命令"

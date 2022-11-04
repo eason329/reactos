@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
- *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2021-2022 Chilung Chan <eason066@gmail.com>
  */
  
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -53,5 +53,5 @@ BEGIN
     IDS_16BPP "增強色（16 位）"
     IDS_24BPP "真彩色（24 位）"
     IDS_32BPP "真彩色（32 位）"
-    IDS_NOTAVAIL "Not Available"
+    IDS_NOTAVAIL "無法使用"
 END

@@ -4,7 +4,7 @@
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang <henrytang2@hotmail.com>
  *              Copyright 2018 Luke Luo <njlyf2011@hotmail.com>
- *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2021-2022 Chilung Chan <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -121,7 +121,7 @@ BEGIN
     LTEXT "序列號：", IDC_STATIC, 10, 55, 52, 8
     LTEXT "", IDC_HWPPROP_SERIAL, 64, 55, 135, 8
     GROUPBOX "", IDC_STATIC, 10, 69, 192, 61
-    AUTOCHECKBOX "這是一台便攜式電腦(&P)", IDC_HWPPROP_PORTABLE, 17, 68, 115, 10, WS_GROUP | WS_TABSTOP
+    AUTOCHECKBOX "這是一臺便攜式電腦(&P)", IDC_HWPPROP_PORTABLE, 17, 68, 115, 10, WS_GROUP | WS_TABSTOP
     AUTORADIOBUTTON "插接狀態未知(&S)", IDC_HWPPROP_UNKNOWN, 22, 85, 160, 10, WS_GROUP | WS_TABSTOP
     AUTORADIOBUTTON "電腦被插接(&D)", IDC_HWPPROP_DOCKED, 22, 97, 160, 10
     AUTORADIOBUTTON "電腦未插接(&U)", IDC_HWPPROP_UNDOCKED, 22, 109, 160, 10
@@ -361,7 +361,7 @@ BEGIN
     IDS_USERPROFILE_CONFIRM_DELETE_TITLE "確認刪除"
     IDS_USERPROFILE_ACCOUNT_UNKNOWN "不明的帳戶"
     IDS_USERPROFILE_ACCOUNT_DELETED "帳戶已刪除"
-	IDS_USERPROFILE_TYPE_TEXT "當 %s 登入這臺電腦時, 作業系統應使用遠端設定檔，還是遠端設定檔的本機快取複本。"
+	IDS_USERPROFILE_TYPE_TEXT "當 %s 登入此電腦時, 作業系統應使用遠端設定檔，還是遠端設定檔的本機快取複本。"
     IDS_MESSAGEBOXTITLE "系統控制臺小程序"
     IDS_WARNINITIALSIZE "為分頁文件的初始大小輸入一個數字值。"
     IDS_WARNMAXIMUMSIZE "為分頁文件的最大大小輸入一個數字值。"
@@ -378,5 +378,5 @@ BEGIN
     IDS_HWPROFILE_WARNING "警告"
     IDS_ENVIRONMENT_WARNING "您所做的任何更改都將被丟棄，變數的值將編輯為文字。"
     IDS_ENVIRONMENT_WARNING_TITLE "系統內容"
-    IDS_FILE_BROWSE_FILTER "All Files (*.*)\0*.*\0"
+    IDS_FILE_BROWSE_FILTER "所有檔案 (*.*)\0*.*\0"
 END
