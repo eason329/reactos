@@ -1,0 +1,71 @@
+/*
+ * PROJECT:     ReactOS IF Monitor DLL
+ * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
+ * PURPOSE:     Chinese (Traditional) resource file
+ * TRANSLATOR:  Copyright 2026 Chan Chilung <eason066@gmail.com>             
+ */
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+
+STRINGTABLE
+BEGIN
+    IDS_HLP_INTERFACE_SHOW "顯示資訊。\n"
+    IDS_HLP_INTERFACE_SHOW_INTERFACE "顯示介面。\n"
+    IDS_HLP_INTERFACE_SHOW_INTERFACE_EX "\n用法: \n"
+
+    IDS_HLP_IP_SHOW      "顯示 IP 資訊。\n"
+    IDS_HLP_ADDRESSES    "顯示 IP 位址設定。\n"
+    IDS_HLP_ADDRESSES_EX "\n用法: %1!s! [[name=]string]\n\n\
+參數：\n\n\
+      Tag             值\n\
+      name            目前指定的介面名稱。\n\n\
+備註：顯示特定介面的 IP 位址設定。\n\n\
+範例：\n\n\
+      %1!s! ""Local Area network""\n"
+    IDS_HLP_CONFIG       "顯示 IP 位址和其他資訊。\n"
+    IDS_HLP_CONFIG_EX    "\n用法: %1!s! [[name=]string]\n\n\
+參數：\n\n\
+      Tag             值\n\
+      name            目前指定的介面名稱。\n\n\
+備註：顯示特定介面的 IP 位址和 DNS 伺服器設定。\n\n\
+範例：\n\n\
+      %1!s! ""Local Area Network""\n"
+    IDS_HLP_DNS          "顯示 DNS 伺服器位址。\n"
+    IDS_HLP_DNS_EX       "\n用法: %1!s! [[name=]string]\n\n\
+參數：\n\n\
+      Tag             值\n\
+      name            目前指定的介面名稱。\n\n\
+備註：顯示特定介面的 DNS 伺服器設定。n\n\
+範例：\n\n\
+      %1!s! ""Local Area Network""\n"
+
+    IDS_HLP_WINSOCK_RESET "重設 Winsock Catalog 到一個初始狀態。\n"
+    IDS_HLP_WINSOCK_RESET_EX "\n用法：%1!s!\n\n\
+備註：重設 Winsock Catalog 到一個初始狀態。\n"
+    IDS_HLP_WINSOCK_SHOW  "顯示資訊。\n"
+    IDS_HLP_WINSOCK_SHOW_CATALOG "顯示 Winsock Catalog 的內容。\n"
+    IDS_HLP_WINSOCK_SHOW_CATALOG_EX "\n用法: %1!s! [[type=]full]\n\n\
+參數：\n\n\
+    \n"
+
+    IDS_IP_HEADER        "\n介面 ""%s"" 的設定\n"
+    IDS_DHCP_ON          "    DHCP 已啟用:                           是\n"
+    IDS_DHCP_OFF         "    DHCP 已啟用:                           否\n"
+    IDS_NOIPADDRESS      "    IP 位址:                               無\n"
+    IDS_IPADDRESS        "    IP 位址:                               %s\n"
+    IDS_IPADDRESSES      "    IP 位址:                               %s\n"
+    IDS_NOSUBNETMASK     "    子網路遮罩:                             無\n"
+    IDS_SUBNETMASK       "    子網路遮罩:                             %s\n"
+    IDS_SUBNETMASKS      "    子網路遮罩:                             %s\n"
+
+    IDS_EMPTYLINE        "                                          %s\n"
+
+
+
+    IDS_DUMP_NEWLINE     "\n"
+    IDS_DUMP_HEADERLINE  "# ----------------------------------\n"
+
+    IDS_DUMP_IP_HEADER   "# ""%s"" 的介面 IP 設定\n"
+
+
+END
