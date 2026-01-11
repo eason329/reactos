@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2019 Luke Luo <njlyf2011@hotmail.com>
- *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2021-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -27,7 +27,7 @@ END
 STRINGTABLE
 BEGIN
     IDS_RENDERER_DEFAULT "系統預設值"
-    IDS_RENDERER_RSWR "ReactOS Software Implementation"
+    IDS_RENDERER_RSWR "ReactOS 軟體實作"
     IDS_CPLNAME "OpenGL 設定"
     IDS_CPLDESCRIPTION "設定 OpenGL 轉譯器。"
     IDS_DEBUG_SET "設定"
