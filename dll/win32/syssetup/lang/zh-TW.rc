@@ -4,7 +4,7 @@
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
  *              Copyright 2018 Luke Luo <njlyf2011@hotmail.com>
- *              Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -14,8 +14,8 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYS
 CAPTION "ReactOS 安裝程式"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "歡迎使用 ReactOS 安裝程式。", IDC_WELCOMETITLE, 115, 8, 195, 24
-    LTEXT "安裝程式將在電腦上安裝 ReactOS 作業系統。\n它需要收集有關您和您的電腦的資訊以正確安裝 ReactOS。", IDC_STATIC, 115, 40, 195, 100
+    LTEXT "歡迎使用 ReactOS 安裝精靈", IDC_WELCOMETITLE, 115, 8, 195, 24
+    LTEXT "這個精靈將在您的電腦上安裝 ReactOS 作業系統。\n它需要收集有關您和您的電腦的資訊以正確安裝 ReactOS。", IDC_STATIC, 115, 40, 195, 100
     LTEXT "按［下一步］繼續安裝程式。", IDC_STATIC, 115, 169, 195, 17
 END
 
@@ -68,7 +68,7 @@ BEGIN
     LTEXT "電腦名稱(&C)︰", IDC_STATIC, 54, 38, 75, 8
     EDITTEXT IDC_COMPUTERNAME, 132, 35, 163, 14, WS_VISIBLE | WS_TABSTOP | ES_AUTOHSCROLL | ES_UPPERCASE
     ICON IDI_ICON5, IDC_STATIC, 21, 57, 20, 20
-    LTEXT "安裝程式會建立一個稱為 Administrator (系統管理員) 的帳戶。當需要完全控制電腦時，可以使用這個帳戶。.", IDC_STATIC, 54, 57, 241, 25
+    LTEXT "安裝程式會建立一個稱為 Administrator (系統管理員) 的帳戶。當需要完全控制電腦時，可以使用這個帳戶。", IDC_STATIC, 54, 57, 241, 25
     LTEXT "請輸入不超過 127 個字元的系統管理員密碼。", IDC_STATIC, 54, 87, 241, 8
     LTEXT "系統管理員密碼(&A)︰", IDC_STATIC, 54, 104, 75, 8
     EDITTEXT IDC_ADMINPASSWORD1, 132, 101, 163, 14, WS_VISIBLE | WS_TABSTOP | ES_PASSWORD
@@ -121,9 +121,9 @@ CAPTION "ReactOS 安裝程式"
 FONT 9, "新細明體"
 BEGIN
     LTEXT "正在登錄元件", IDC_TASKTEXT1, 65, 27, 232, 8
-    LTEXT "Installing start menu items", IDC_TASKTEXT2, 65, 39, 232, 8
-    LTEXT "Saving settings", IDC_TASKTEXT3, 65, 51, 232, 8
-    LTEXT "Removing temporary files", IDC_TASKTEXT4, 65, 63, 232, 8
+    LTEXT "正在安裝開始功能表項目", IDC_TASKTEXT2, 65, 39, 232, 8
+    LTEXT "正在儲存設定", IDC_TASKTEXT3, 65, 51, 232, 8
+    LTEXT "正在移除暫存檔案", IDC_TASKTEXT4, 65, 63, 232, 8
     LTEXT "", IDC_ITEM, 21, 85, 275, 8
     CONTROL "", IDC_PROCESSPROGRESS, "msctls_progress32", PBS_SMOOTH | WS_CHILD | WS_VISIBLE | WS_BORDER, 21, 97, 275, 11
 END
@@ -268,5 +268,5 @@ BEGIN
     IDS_PRODUCTWORKSTATIONNAME "ReactOS Workstation"
     IDS_PRODUCTSERVERINFO "系統將識別為一個伺服器。私人資料夾「我的圖片」、「我的影片」和「我的音樂」會獨立於「我的文件」。"
     IDS_PRODUCTWORKSTATIONINFO "系統將識別為一個工作站。私人資料夾「我的圖片」、「我的影片」和「我的音樂」會在「我的文件」資料夾內。"
-    IDS_DEFAULT "（預設）"
+    IDS_DEFAULT "(預設)"
 END

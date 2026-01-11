@@ -32,7 +32,7 @@ EVENTCREATE [/S 電腦 [/U [domain\\]使用者 [/P 密碼]]] /ID 事件 ID\n\
 \n\
     /SO 來源               指定事件要使用的來源 (如果沒有指定，\n\
                            預設來源則為 'eventcreate') 。有效的來源可以是\n\
-                           任意字串，且應該代表產生事件的應用程式或組件。\n\
+                           任意字串，且應該代表產生事件的應用程式或元件。\n\
 \n\
     /T  類型               指定要建立的事件類型。有效的類型是:\n\
                            SUCCESS，ERROR，WARNING，INFORMATION。\n\
