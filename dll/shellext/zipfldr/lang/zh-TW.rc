@@ -2,7 +2,7 @@
  * PROJECT:     ReactOS Zip Shell Extension
  * LICENSE:     GPL-2.0+ (https://spdx.org/licenses/GPL-2.0+)
  * PURPOSE:     Chinese (Traditional) resource file
- * TRANSLATORS: Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ * TRANSLATORS: Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Simplified) resource translation
  *              Copyright 2018 Li Keqing <auroracloud4096@gmail.com>
  */
@@ -72,10 +72,10 @@ BEGIN
     IDS_COL_DATE_MOD "修改日期"
     IDS_YES "是"
     IDS_NO "否"
-    IDS_ERRORTITLE "壓縮的（zipped）資料夾發生錯誤"
+    IDS_ERRORTITLE "壓縮的 (zipped) 資料夾發生錯誤"
     IDS_CANTSTARTTHREAD "無法開始壓縮檔案的執行緒。"
-    IDS_NOFILES "指定的目錄 '%s' 是空的，所以壓縮的（zipped）資料夾無法將它新增到保存檔中。"
-    IDS_CANTCREATEZIP "無法建立壓縮的資料夾「%s」。（錯誤碼：%d）"
+    IDS_NOFILES "指定的目錄 '%s' 是空的，所以壓縮的 (zipped) 資料夾無法將它新增到保存檔中。"
+    IDS_CANTCREATEZIP "無法建立壓縮的資料夾「%s」。 (錯誤碼：%d)"
     IDS_CANTREADFILE "無法讀取檔案「%s」。"
     IDS_EXTRACTING "正在解壓縮..."
     IDS_CANTEXTRACTFILE "無法解壓縮檔案「%1」。"

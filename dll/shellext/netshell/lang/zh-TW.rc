@@ -3,7 +3,7 @@
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2011 Elton Chung aka MfldElton <elton328@gmail.com>
- *              Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -86,11 +86,11 @@ END
 
 IDD_NETWORKINITPAGE DIALOGEX 0, 0, 317, 143
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "ReactOS Setup"
-FONT 8, "MS Shell Dlg"
+CAPTION "ReactOS 安裝程式"
+FONT 9, "新細明體"
 BEGIN
     ICON IDI_NET_SETUP, IDC_STATIC, 21, 10, 20, 20
-    LTEXT "Please wait while ReactOS installs networking components.", IDC_STATIC, 53, 7, 240, 20
+    LTEXT "ReactOS 正在安裝網路元件，請稍候。", IDC_STATIC, 53, 7, 240, 20
     CONTROL "", IDC_INSTALL_PROGRESS, "msctls_progress32", PBS_SMOOTH | WS_CHILD | WS_VISIBLE | WS_BORDER, 21, 58, 275, 11
 END
 
@@ -171,7 +171,7 @@ BEGIN
     IDS_NET_DELETE "刪除"
     IDS_NET_RENAME "重新命名"
     IDS_NET_PROPERTIES "內容"
-    IDS_NET_OPEN_CONNECTIONS "Open Network Connections"
+    IDS_NET_OPEN_CONNECTIONS "開啟網路連線"
     IDS_FORMAT_BIT "%u Bit／秒"
     IDS_FORMAT_KBIT "%u KBit／秒"
     IDS_FORMAT_MBIT "%u MBit／秒"
@@ -184,8 +184,8 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_NETWORKINITTITLE "Network Install"
-    IDS_NETWORKINITSUBTITLE "Installs required networking components."
+    IDS_NETWORKINITTITLE "網路安裝"
+    IDS_NETWORKINITSUBTITLE "安裝必須的網路元件。"
     IDS_NETWORKSETTINGSTITLE "網路設定"
     IDS_NETWORKSETTINGSSUBTITLE "安裝用於連接到其他網路、電腦和網際網路的網路軟體。"
     IDS_NETWORKCOMPONENTTITLE "網路元件"
