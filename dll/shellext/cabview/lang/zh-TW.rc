@@ -2,7 +2,7 @@
  * PROJECT:     ReactOS CabView Shell Extension
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
- * TRANSLATOR:  Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ * TRANSLATOR:  Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Simplified) resource translation
  *              Copyright 2018 Li Keqing <auroracloud4096@gmail.com>
  */
@@ -15,9 +15,9 @@ BEGIN
     IDS_COL_TYPE    "類型"
     IDS_COL_SIZE    "大小"
     IDS_COL_MDATE   "修改日期"
-    IDS_COL_PATH    "Path"
-    IDS_COL_ATT     "Attributes"
+    IDS_COL_PATH    "路徑"
+    IDS_COL_ATT     "屬性"
 
-    IDS_EXTRACT     "Extract..."
-    IDS_EXTRACTALL  "Extract &All..."
+    IDS_EXTRACT     "解壓縮..."
+    IDS_EXTRACTALL  "解壓縮全部(&A)..."
 END
