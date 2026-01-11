@@ -2,7 +2,7 @@
  * PROJECT:     ReactOS Remote Access Common Dialog
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
- * TRANSLATORS: Copyright 2021 Chan Chilung <eason066@gmail.com>
+ * TRANSLATORS: Copyright 2021-2026 Chan Chilung <eason066@gmail.com>
  * REFERENCES:  Chinese (Simplified) resource translation
  *              Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
  */
@@ -64,19 +64,19 @@ BEGIN
     GROUPBOX "登入安全性", 1547, 7, 33, 246, 191
     LTEXT "數據加密(&D)；", 1546, 7, 5, 247, 10
     COMBOBOX 1495, 7, 17, 247, 76, CBS_DROPDOWNLIST | WS_VSCROLL | NOT WS_TABSTOP
-    AUTORADIOBUTTON "使用可擴展的身份驗證協定（EAP）(&E)", 1544, 17, 47, 226, 8, WS_GROUP
+    AUTORADIOBUTTON "使用可擴展的身份驗證協定 (EAP) (&E)", 1544, 17, 47, 226, 8, WS_GROUP
     LTEXT "EAP 類型", -1, 18, 64, 35, 8, NOT WS_VISIBLE | NOT WS_GROUP
     COMBOBOX 1034, 53, 62, 191, 42, CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | NOT WS_TABSTOP
     PUSHBUTTON "內容(&R)", 1035, 184, 77, 60, 14
     AUTORADIOBUTTON "允許這些協定(&P)", 1545, 17, 92, 224, 10
     AUTOCHECKBOX "未加密的密碼 (PAP)(&U)", 1491, 28, 105, 215, 10, BS_TOP | BS_MULTILINE | WS_GROUP
-    AUTOCHECKBOX "Shiva 密碼身份驗證協定 (SPAP)(&S)", 1496, 28, 119, 214, 10, BS_TOP | BS_MULTILINE
-    AUTOCHECKBOX "Challenge Handshake 身份驗證協定 (CHAP)(&C)", 1494, 28, 133, 215, 10, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "Shiva 密碼身份驗證協定 (SPAP) (&S)", 1496, 28, 119, 214, 10, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "Challenge Handshake 身份驗證協定 (CHAP) (&C)", 1494, 28, 133, 215, 10, BS_TOP | BS_MULTILINE
     AUTOCHECKBOX "&MS CHAP (MS-CHAP)", 1493, 28, 148, 212, 10, BS_TOP | BS_MULTILINE
     AUTOCHECKBOX "允許在 Win 95 伺服器使用舊的 MS-CHAP 版本(&W)", 200, 46, 162, 198, 10, BS_TOP | BS_MULTILINE
     AUTOCHECKBOX "微軟 CHAP 版本 2 (MS-CHAP v2)(&I)", 1492, 28, 176, 200, 10, BS_TOP | BS_MULTILINE
     CONTROL "", -1, "STATIC", SS_LEFTNOWORDWRAP | SS_SUNKEN | WS_GROUP, 28, 189, 208, 1
-    AUTOCHECKBOX "對於 MS CHAP 的基礎協定，自動使用我的 ReactOS 使用者名稱和密碼（及網域，如果有的話）(&F)", 1549, 28, 195, 213, 24, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "對於 MS CHAP 的基礎協定，自動使用我的 ReactOS 使用者名稱和密碼 (及網域，如果有的話) (&F)", 1549, 28, 195, 213, 24, BS_TOP | BS_MULTILINE
     DEFPUSHBUTTON "確定", 1, 127, 232, 60, 14
     PUSHBUTTON "取消", 2, 192, 232, 60, 14
 END
@@ -89,7 +89,7 @@ BEGIN
     DEFPUSHBUTTON "確定", 1, 97, 91, 60, 14
     ICON 563, 1046, 7, 7, 20, 20
     LTEXT "「Connection name」現已連線。", 1047, 40, 7, 212, 16
-    LTEXT "要檢查這個連線的狀態或斷開連線，請右鍵點擊在網路連線資料夾中的圖標，或點擊其在工作列上的圖標（如果存在）。", -1, 40, 30, 212, 34
+    LTEXT "要檢查這個連線的狀態或斷開連線，請右鍵點擊在網路連線資料夾中的圖標，或點擊其在工作列上的圖標 (如果存在) 。", -1, 40, 30, 212, 34
     AUTOCHECKBOX "不顯示這個訊息(&D)", 1045, 40, 69, 212, 10, BS_TOP | BS_MULTILINE
 END
 
@@ -379,7 +379,7 @@ BEGIN
     ICON 15102, 1238, 7, 7, 20, 20
     LTEXT "數據機", -1, 25, 27, 24, 8, NOT WS_VISIBLE | NOT WS_GROUP
     EDITTEXT 1235, 40, 7, 214, 16, ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER
-    LTEXT "最大速度（bps）(&M)：", 1243, 7, 36, 110, 8
+    LTEXT "最大速度 (bps) (&M)：", 1243, 7, 36, 110, 8
     COMBOBOX 1239, 119, 34, 136, 186, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | NOT WS_TABSTOP
     LTEXT "數據機協定(&P)", 1244, 7, 52, 111, 8
     COMBOBOX 1245, 119, 50, 136, 186, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | NOT WS_TABSTOP
@@ -395,10 +395,10 @@ END
 
 126 DIALOGEX 0, 0, 270, 117
 STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUPWINDOW | WS_CAPTION
-CAPTION "選擇網路組件類型"
+CAPTION "選擇網路元件類型"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "點擊您要安裝的網路組件類型：", -1, 8, 7, 258, 8
+    LTEXT "點擊您要安裝的網路元件類型：", -1, 8, 7, 258, 8
     CONTROL "", 1251, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000C04D, 8, 20, 188, 58
     GROUPBOX "", -1, 8, 81, 188, 30
     LTEXT "", 1250, 12, 90, 177, 17
@@ -424,7 +424,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUPWINDOW | WS_CAPTION
 CAPTION "手動撥號"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "拿起手機撥號（或詢問接線員撥號）。撥號完畢後，點擊［確定］。聆聽手機提示直至沒有聲音，然後掛斷電話。", 1281, 8, 8, 219, 32
+    LTEXT "拿起手機撥號 (或詢問接線員撥號) 。撥號完畢後，點擊［確定］。聆聽手機提示直至沒有聲音，然後掛斷電話。", 1281, 8, 8, 219, 32
     LTEXT "電話號碼：", 1282, 8, 46, 91, 8
     LTEXT "", 1283, 103, 46, 126, 8, NOT WS_GROUP
     DEFPUSHBUTTON "確定", 1, 104, 70, 60, 14, WS_GROUP
@@ -493,7 +493,7 @@ STYLE DS_SHELLFONT | WS_CHILD | WS_VISIBLE | WS_CAPTION
 CAPTION "回撥"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "當您撥入伺服器時，它可能會向您回撥電話以減少您的電話費用。請指定是否要回撥。（虛擬專用網路（VPN）連線不支援回撥。）", 1043, 8, 4, 219, 43
+    LTEXT "當您撥入伺服器時，它可能會向您回撥電話以減少您的電話費用。請指定是否要回撥。 (虛擬專用網路 (VPN) 連線不支援回撥。)", 1043, 8, 4, 219, 43
     AUTORADIOBUTTON "不要回撥(&N)", 1041, 7, 48, 219, 10, BS_TOP | BS_MULTILINE | WS_GROUP
     AUTORADIOBUTTON "在撥號時伺服器提供期間詢問我(&S)", 1040, 7, 61, 219, 10, BS_TOP | BS_MULTILINE
     AUTORADIOBUTTON "總是以以下電話號碼回撥給我(&W)：", 1042, 7, 74, 219, 10, BS_TOP | BS_MULTILINE
@@ -629,12 +629,12 @@ CAPTION "安全"
 FONT 9, "新細明體"
 BEGIN
     GROUPBOX "安全選項", 1580, 8, 3, 215, 139
-    AUTORADIOBUTTON "一般（推薦設定）(&T)", 1540, 14, 16, 201, 9, BS_NOTIFY | WS_GROUP
-    AUTORADIOBUTTON "進階（自訂設定）(&D)", 1541, 14, 102, 198, 8, BS_NOTIFY
+    AUTORADIOBUTTON "一般 (推薦設定) (&T)", 1540, 14, 16, 201, 9, BS_NOTIFY | WS_GROUP
+    AUTORADIOBUTTON "進階 (自訂設定) (&D)", 1541, 14, 102, 198, 8, BS_NOTIFY
     LTEXT "驗證我的身份，如下所示(&V)：", 1537, 26, 29, 187, 8, NOT WS_GROUP
     COMBOBOX 1178, 26, 40, 184, 78, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | NOT WS_TABSTOP
-    AUTOCHECKBOX "自動使用我的 ReactOS 登入名稱和密碼（及網域，如果有的話）(&U)", 1174, 26, 58, 184, 20, BS_TOP | BS_MULTILINE
-    AUTOCHECKBOX "要求數據加密（沒有則斷開）(&I)", 1169, 26, 82, 183, 10, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "自動使用我的 ReactOS 登入名稱和密碼 (及網域，如果有的話) (&U)", 1174, 26, 58, 184, 20, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "要求數據加密 (沒有則斷開) (&I)", 1169, 26, 82, 183, 10, BS_TOP | BS_MULTILINE
     LTEXT "使用這些設定，需要對安全協定有所了解。", 1539, 15, 114, 134, 20
     PUSHBUTTON "設定(&S)...", 1180, 151, 115, 60, 14
     GROUPBOX "交互式登入和腳本", 1177, 8, 146, 215, 62, WS_GROUP
@@ -1106,7 +1106,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
 FONT 9, "新細明體"
 BEGIN
     LTEXT "輸入名稱或您正在連線的路由器的 IP 位址。", 1535, 10, 8, 289, 18
-    LTEXT "主機名稱或 IP 位址（如 reactos.org 或 145.52.0.1）(&H)：", 1537, 21, 35, 285, 8
+    LTEXT "主機名稱或 IP 位址 (如 reactos.org 或 145.52.0.1) (&H)：", 1537, 21, 35, 285, 8
     EDITTEXT 1536, 21, 47, 285, 14, ES_AUTOHSCROLL
 END
 
@@ -1213,7 +1213,7 @@ BEGIN
     EDITTEXT 1566, 7, 47, 113, 14, ES_AUTOHSCROLL | ES_NUMBER
     AUTORADIOBUTTON "&TCP", 1548, 128, 49, 30, 10, NOT WS_TABSTOP
     AUTORADIOBUTTON "&UDP", 1567, 166, 49, 31, 10, NOT WS_TABSTOP
-    LTEXT "監聽埠或埠範圍(&L)：\n（例如：1024-1209, 1300-1310, 1450）", -1, 7, 70, 207, 22
+    LTEXT "監聽埠或埠範圍(&L)：\n (例如：1024-1209, 1300-1310, 1450)", -1, 7, 70, 207, 22
     LTEXT "T&CP：", -1, 7, 100, 28, 8
     EDITTEXT 1569, 50, 97, 162, 14, ES_AUTOHSCROLL
     LTEXT "UD&P：", -1, 7, 121, 30, 8
@@ -1229,7 +1229,7 @@ FONT 9, "新細明體"
 BEGIN
     LTEXT "服務描述(&D)：", -1, 7, 5, 203, 8
     EDITTEXT 1552, 7, 18, 205, 14, ES_AUTOHSCROLL
-    LTEXT "名稱或您的網路上主持這個服務的電腦的 IP 位址（例如 192.168.0.12）(&N)：", -1, 7, 37, 208, 16
+    LTEXT "名稱或您的網路上主持這個服務的電腦的 IP 位址 (例如 192.168.0.12) (&N)：", -1, 7, 37, 208, 16
     EDITTEXT 1556, 7, 57, 203, 14, ES_AUTOHSCROLL
     LTEXT "服務所在的埠(&P)：", -1, 7, 85, 203, 8
     EDITTEXT 1553, 7, 97, 113, 14, ES_AUTOHSCROLL | ES_NUMBER
@@ -1282,7 +1282,7 @@ CAPTION "新增連線精靈"
 FONT 9, "新細明體"
 BEGIN
     LTEXT "在下面的文字欄位輸入您的服務的名稱。如果您將文字框留空，當您連線時，ReactOS會自動檢測並配置您的服務。", -1, 10, 7, 301, 25
-    LTEXT "服務名稱（可選）(&S)：", -1, 22, 32, 229, 8
+    LTEXT "服務名稱 (可選) (&S)：", -1, 22, 32, 229, 8
     EDITTEXT 1593, 22, 44, 275, 14, ES_AUTOHSCROLL
 END
 
@@ -1302,12 +1302,12 @@ CAPTION "安全"
 FONT 9, "新細明體"
 BEGIN
     GROUPBOX "安全選項", 1580, 8, 4, 213, 151
-    AUTORADIOBUTTON "一般（推薦設定）(&T)", 1540, 14, 16, 197, 9, BS_NOTIFY | WS_GROUP
-    AUTORADIOBUTTON "進階（自訂設定）(&D)", 1541, 14, 100, 197, 8, BS_NOTIFY
+    AUTORADIOBUTTON "一般 (推薦設定) (&T)", 1540, 14, 16, 197, 9, BS_NOTIFY | WS_GROUP
+    AUTORADIOBUTTON "進階 (自訂設定) (&D)", 1541, 14, 100, 197, 8, BS_NOTIFY
     LTEXT "驗證我的身份，如下所示(&V)：", 1537, 26, 29, 183, 8, NOT WS_GROUP
     COMBOBOX 1178, 26, 40, 184, 78, CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | WS_VSCROLL | NOT WS_TABSTOP
-    AUTOCHECKBOX "自動使用我 ReactOS 登入名稱和密碼（及網域，如果有的話）(&U)", 1174, 26, 59, 182, 20, BS_TOP | BS_MULTILINE
-    AUTOCHECKBOX "要求數據加密（沒有則斷開）(&I)", 1169, 26, 83, 182, 10, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "自動使用我 ReactOS 登入名稱和密碼 (及網域，如果有的話) (&U)", 1174, 26, 59, 182, 20, BS_TOP | BS_MULTILINE
+    AUTOCHECKBOX "要求數據加密 (沒有則斷開) (&I)", 1169, 26, 83, 182, 10, BS_TOP | BS_MULTILINE
     LTEXT "使用這些設定，需要對安全協定有所了解。", 1539, 26, 111, 136, 20
     PUSHBUTTON "設定(&S)...", 1180, 151, 134, 60, 14
     PUSHBUTTON "I&PSec 設定...", 1598, 126, 163, 85, 14
@@ -1352,7 +1352,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUPWINDOW | WS_CAPTION
 CAPTION "ICMP"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "網際網路控制訊息協定（&ICMP）允許電腦網路分享錯誤和狀態訊息。請選擇這個電腦將回應的網際網路訊息請求：", -1, 7, 5, 215, 37
+    LTEXT "網際網路控制訊息協定 (&ICMP) 允許電腦網路分享錯誤和狀態訊息。請選擇這個電腦將回應的網際網路訊息請求：", -1, 7, 5, 215, 37
     CONTROL "IList1", 1644, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000440D, 7, 45, 215, 100, WS_EX_CLIENTEDGE
     GROUPBOX "描述：", -1, 7, 153, 215, 55
     LTEXT "", 1645, 14, 171, 199, 32
@@ -1382,8 +1382,8 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
 FONT 9, "新細明體"
 BEGIN
     AUTORADIOBUTTON "自動選擇(&A)", 1534, 21, 20, 288, 11, BS_LEFT | BS_TOP | BS_MULTILINE | WS_GROUP | NOT WS_TABSTOP
-    AUTORADIOBUTTON "點到點隧道協定（PPTP）(&P)", 1532, 21, 39, 290, 11, BS_LEFT | BS_TOP | BS_MULTILINE | NOT WS_TABSTOP
-    AUTORADIOBUTTON "第 2 層隧道協定（L2TP）(&L)", 1533, 21, 56, 286, 11, BS_LEFT | BS_TOP | BS_MULTILINE | NOT WS_TABSTOP
+    AUTORADIOBUTTON "點到點隧道協定 (PPTP) (&P)", 1532, 21, 39, 290, 11, BS_LEFT | BS_TOP | BS_MULTILINE | NOT WS_TABSTOP
+    AUTORADIOBUTTON "第 2 層隧道協定 (L2TP) (&L)", 1533, 21, 56, 286, 11, BS_LEFT | BS_TOP | BS_MULTILINE | NOT WS_TABSTOP
 END
 
 1420 DIALOGEX 0, 0, 265, 108
@@ -1462,7 +1462,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
 CAPTION "一般"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "主機名或 IP 位址的目標（如 reactos.org 或 145.52.0.1）(&H)：", 1430, 7, 5, 217, 18
+    LTEXT "主機名或 IP 位址的目標 (如 reactos.org 或 145.52.0.1) (&H)：", 1430, 7, 5, 217, 18
     EDITTEXT 1427, 7, 25, 215, 14, ES_AUTOHSCROLL
     GROUPBOX "第一次連線", 1431, 9, 48, 213, 78
     LTEXT "ReactOS 可以在嘗試建立這個虛擬連線前首先連線公共網路，例如網際網路。", 1432, 17, 63, 199, 24
@@ -1494,8 +1494,8 @@ END
 STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "輸入的主機名稱或您連線到的電腦的網際網路協定（IP）位址。", -1, 10, 6, 275, 16
-    LTEXT "主機名稱或 IP 位址（例如，reactos.org 或 145.52.0.1）(&H)：", -1, 21, 28, 277, 11
+    LTEXT "輸入的主機名稱或您連線到的電腦的網際網路協定 (IP) 位址。", -1, 10, 6, 275, 16
+    LTEXT "主機名稱或 IP 位址 (例如：reactos.org 或 145.52.0.1) (&H)：", -1, 21, 28, 277, 11
     EDITTEXT 1433, 21, 42, 275, 14, ES_AUTOHSCROLL
 END
 
@@ -1617,7 +1617,7 @@ STYLE DS_SHELLFONT | WS_CHILD | WS_DISABLED | WS_CAPTION
 CAPTION "新增連線精靈"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "輸入 ISP 帳戶名稱和密碼，然後寫下這個訊息並將其儲存在一個安全的地方。（如果您忘記了現時的帳戶名稱或密碼，請與 ISP 聯繫。）", 1689, 10, 4, 308, 25
+    LTEXT "輸入 ISP 帳戶名稱和密碼，然後寫下這個訊息並將其儲存在一個安全的地方。 (如果您忘記了現時的帳戶名稱或密碼，請與 ISP 聯繫。)", 1689, 10, 4, 308, 25
     LTEXT "使用者名稱(&U)：", 1636, 23, 35, 89, 15
     EDITTEXT 1614, 115, 34, 190, 15, ES_AUTOHSCROLL
     LTEXT "密碼(&P)：", 1637, 23, 55, 90, 13
@@ -1738,7 +1738,7 @@ STYLE DS_SHELLFONT | DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUPWINDOW | WS_CAPTIO
 CAPTION "網路"
 FONT 9, "新細明體"
 BEGIN
-    LTEXT "網路組件：(&N)", -1, 7, 7, 217, 9
+    LTEXT "網路元件：(&N)", -1, 7, 7, 217, 9
     CONTROL "", 7036, "SYSLISTVIEW32", WS_BORDER | WS_TABSTOP | 0x0000440D, 7, 17, 215, 89, WS_EX_CLIENTEDGE
     PUSHBUTTON "安裝(&I)...", 7037, 9, 110, 67, 14, WS_GROUP
     PUSHBUTTON "解除安裝(&U)", 7038, 80, 110, 67, 14, WS_GROUP
@@ -1837,13 +1837,13 @@ END
 STRINGTABLE
 BEGIN
     187 "不要撥號(&N)\0"
-    188 "您（或程序）%1 已經請求訊息。您想要使用哪種連線？\0"
+    188 "您 (或程序) %1 已經請求訊息。您想要使用哪種連線？\0"
     189 "新增可選的電話號碼\0"
     190 "只撥第一個可用的設備\0"
     191 "撥號所有的設備\0"
     192 "需要時才撥號設備\0"
     193 "輸入使用者名稱和密碼以存取遠端網域。\0"
-    194 "網路位址轉換（NAT）目前安裝為路由協定,\n在啟用網際網路連線共享之前必須刪除。\n若要刪除網路位址轉換，請開啟路由和遠端存取管理器\n管理單元並展開左側窗格中的路由器的條目。\n從 IP 路由協定列表中刪除網路位址轉換路由協定。\0"
+    194 "網路位址轉換 (NAT) 目前安裝為路由協定,\n在啟用網際網路連線共享之前必須刪除。\n若要刪除網路位址轉換，請開啟路由和遠端存取管理器\n管理單元並展開左側窗格中的路由器的條目。\n從 IP 路由協定列表中刪除網路位址轉換路由協定。\0"
     195 "地區代碼必須只能包含數字 0 到 9。\0"
     196 "條目名稱必須包含至少一個非空白字符，不能以句點開始。選擇一個不同的名稱。\0"
     197 "您必須在這個欄位選擇一個從 %1 到 %2 的值。\0"
@@ -1919,11 +1919,11 @@ BEGIN
     268 "電話號碼\0"
     269 "您可以輸入一個固定的 IP 位址。\0"
     270 "IP 位址\0"
-    271 "網際網路協定（TCP/IP）未安裝或遠端存取已停用。在控制台中，按「網路」、轉至服務頁面，選擇遠端存取服務內容，並按「網路」按鈕。\0"
+    271 "網際網路協定 (TCP/IP) 未安裝或遠端存取已停用。在控制台中，按「網路」、轉至服務頁面，選擇遠端存取服務內容，並按「網路」按鈕。\0"
     272 "TCP/IP\0"
     273 "IPSec，預設策略\0"
     274 "IPX/SPX 或兼容\0"
-    275 "（目前所在的位置）\0"
+    275 "(目前所在的位置)\0"
     276 "ISDN\0"
     277 "所有可用的 ISDN 線路多重連結\0"
     278 "64K 數字\0"
@@ -2207,11 +2207,11 @@ BEGIN
     1560 "需要安全的密碼\0"
     1561 "使用智能卡\0"
     1562 "您必須選擇至少一個密碼身份驗證協定。\0"
-    1563 "不允許加密（如果它需要加密，伺服器將斷開連線）\0"
-    1564 "可選加密（即使連線沒有加密）\0"
-    1565 "需要加密（如果伺服器拒絕將斷開連線）\0"
-    1566 "最大強度的加密（如果伺服器拒絕將斷開連線）\0"
-    1567 "（已啟用加密）\0"
+    1563 "不允許加密 (如果它需要加密，伺服器將斷開連線)\0"
+    1564 "可選加密 (即使連線沒有加密)\0"
+    1565 "需要加密 9如果伺服器拒絕將斷開連線)\0"
+    1566 "最大強度的加密 (如果伺服器拒絕將斷開連線)\0"
+    1567 "(已啟用加密)\0"
     1568 "網際網路帳戶訊息\0"
     1569 "您將需要帳戶名和密碼登入到您的網際網路帳戶。\0"
     1570 "所選的 EAP 程序包沒有提供加密密鑰。選擇的 EAP 程序包提供金鑰或選擇不加密。\0"
@@ -2239,13 +2239,13 @@ BEGIN
     1592 "提供您寬頻連線服務的名稱是什麼？\0"
     1593 "您將需要帳戶名和密碼登入到您的帳戶\0"
     1594 "PPPOE1-0\0"
-    1595 "以太網點對點協定（PPPoE）\0"
+    1595 "以太網點對點協定 (PPPoE)\0"
     1596 "寬頻連線類型(&B)：\0"
     1611 "寬頻連線\0"
     1612 "您已經選擇使用預共享密鑰，但您尚未輸入。\n請輸入一個預共享密鑰。\0"
     1613 "無法提交憑據\0"
-    1634 "由於 Windows 管理規範（WMI）服務已被停用，ReactOS 不能顯示這個連線或家庭網路的內容。\n\n若要設定這個連線或家庭網路的內容，必須首先啟用 WMI 服務。如要啟用服務，在管理工具控制面板中，點擊「服務」，然後右鍵點擊 Windows 管理規範，然後點擊「開始」。\0"
-    1635 "ReactOS 無法顯示這個連線的內容。Windows 管理規範（WMI）訊息可能已損毀。若要更正這個問題，請使用系統還原將 ReactOS 還原到較早的時間（稱為還原點）。系統還原位於系統工具資料夾內。\0"
+    1634 "由於 Windows 管理規範 (WMI) 服務已被停用，ReactOS 不能顯示這個連線或家庭網路的內容。\n\n若要設定這個連線或家庭網路的內容，必須首先啟用 WMI 服務。如要啟用服務，在管理工具控制面板中，點擊「服務」，然後右鍵點擊 Windows 管理規範，然後點擊「開始」。\0"
+    1635 "ReactOS 無法顯示這個連線的內容。Windows 管理規範 (WMI) 訊息可能已損毀。若要更正這個問題，請使用系統還原將 ReactOS 還原到較早的時間 (稱為還原點) 。系統還原位於系統工具資料夾內。\0"
     1646 "允許傳入的回顯請求\0"
     1647 "允許傳入時間戳請求\0"
     1648 "允許傳入遮罩請求\0"
@@ -2272,7 +2272,7 @@ BEGIN
     1673 "如果預設路徑改變，從這台電腦發送的數據將被重新路由。\0"
     1675 "輸入的記錄檔案大小的值無效。請輸入一個 1 到 32767 k 之間的值。\0"
     1685 "您的使用者帳戶沒有權限使用這個連線。這通常是因為您是以來賓身份登入。\0"
-    1686 "輸入帳戶名稱和密碼。（如果您忘記了現時的帳戶名稱或密碼，請與網路管理員聯繫。）\0"
+    1686 "輸入帳戶名稱和密碼。 (如果您忘記了現時的帳戶名稱或密碼，請與網路管理員聯繫。)\0"
     1687 "電腦名稱(&A)\0"
     1688 "ISP 名稱(&A)\0"
     1689 "公司名稱(&A)\0"
@@ -2313,7 +2313,7 @@ BEGIN
     7337 "發生內部錯誤。\0"
     7338 "發生內部錯誤：網路元件資料庫控制代碼已損毀。\0"
     7339 "發生了內部錯誤。\0"
-    7340 "嘗試提交對網路組件所做的更改時出錯。\0"
+    7340 "嘗試提交對網路元件所做的更改時出錯。\0"
     7341 "發生內部錯誤。\0"
     7342 "無法提交到 TCP/IP 協定對系統所做的更改。\0"
     7343 "無法儲存對 IPX 協定對系統所做的更改。\0"
@@ -2322,10 +2322,10 @@ BEGIN
     7346 "無法從系統載入 TCP/IP 內容。\0"
     7347 "無法從系統載入 IPX 內容。\0"
     7348 "傳入連線取決於路由和遠端存取服務無法啟動。有關詳細訊息，請檢查系統事件記錄。\0"
-    7349 "不能允許編輯的網路組件，這一次因為他們目前在别處被修改。\0"
-    7350 "您輸入的新使用者未新增到本地使用者資料庫因為名稱或輸入密碼違反了系統策略（太大、太小、或格式不正確）。 \0"
+    7349 "不能允許編輯的網路元件，這一次因為他們目前在别處被修改。\0"
+    7350 "您輸入的新使用者未新增到本地使用者資料庫因為名稱或輸入密碼違反了系統策略 (太大、太小、或格式不正確)。 \0"
     7351 "該系統是無法刪除請求的使用者。\0"
-    7352 "無法刪除所選的網路組件，因為它正在使用中。\0"
+    7352 "無法刪除所選的網路元件，因為它正在使用中。\0"
     7353 "傳入的連線警告\0"
     7354 "即使按下取消，使用者也會從系統中將永久刪除。您確定您想要永久刪除 %s？ \0"
     7355 "您將要切換到系統管理控制台。該傳入連線內容頁將被關閉，您所作的任何更改都會被提交給系統。是否可以繼續？\0"
@@ -2334,7 +2334,7 @@ BEGIN
     7358 "您可以指定可以連線到這個電腦的使用者。\0"
     7359 "傳入連線的設備\0"
     7360 "您可以選擇設備您的電腦用來接收傳入的連線。\0"
-    7361 "傳入的虛擬專用網路（VPN）連線\0"
+    7361 "傳入的虛擬專用網路 (VPN) 連線\0"
     7362 "另一台電腦可以通過 VPN 連線連線到您的\0"
     7363 "網路軟件\0"
     7364 "網路軟件允許該電腦從其它類型的電腦接受連線。\0"
@@ -2355,7 +2355,7 @@ BEGIN
     7382 "自動分配網路號(&S)\0"
     7383 "連入的連線不能發出 00000000 或 FFFFFFFF 的 ipx 網路號碼。請更改指派的網路號碼或使用自動指派網路號碼。\0"
     7384 "到\0"
-    7385 "通訊通訊埠（%s）\0"
+    7385 "通訊通訊埠 (%s)\0"
     7386 "網路連線不會顯示一些專門的選項來使用遠端存取策略或本地使用者管理器的控制台已設定的入站連線。有關傳入連線的完整和正確的訊息，您將需要使用這些控制台。\0"
     7387 "您所選擇的使用者回撥模式需要您輸入有效的回撥號碼。\0"
     7388 "ReactOS 必須重新啟動才能完成操作。您要立即重新啟動嗎？\0"
@@ -2370,11 +2370,11 @@ BEGIN
     7397 "輸入的 TCP/IP 池無效，因為位址比遮罩更具體。\0"
     7398 "起始地址必須低於結束地址。\0"
     7399 "路由和遠端存取服務正在停止。在停止之前，傳入的連線選項不可用。請稍等幾分鐘，然後再試一次。\0"
-    7400 "%s（%s）\0"
-    7401 "%s（%d channels）\0"
-    7402 "傳入連線 VPN（PPTP）\0"
-    7403 "傳入連線 VPN VPN（L2TP）\0"
-    7404 "IP 安全設定（IKE）\0"
+    7400 "%s (%s)\0"
+    7401 "%s (%d channels)\0"
+    7402 "傳入連線 VPN (PPTP)\0"
+    7403 "傳入連線 VPN VPN (L2TP)\0"
+    7404 "IP 安全設定 (IKE)\0"
     7405 "127.0.0.1\0"
     7406 "您沒有足夠的權限來設定傳入連線\0"
     29900 "無法載入遠端存取連線管理器服務。\0"
