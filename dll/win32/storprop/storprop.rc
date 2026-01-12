@@ -10,3 +10,6 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 #define REACTOS_STR_ORIGINAL_FILENAME "storprop.dll"
 #include <reactos/version.rc>
 
+#ifdef LANGUAGE_ZH_TW
+    #include "lang/zh-TW.rc"
+#endif
