@@ -1,0 +1,18 @@
+ /*
+ * PROJECT:     ReactOS Storage device properties
+ * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
+ * PURPOSE:     Chinese (Traditional) resource file
+ * TRANSLATOR:  Copyright 2026 Chan Chilung <eason066@gmail.com>
+ */
+ 
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+
+IDD_DISK_POLICIES DIALOGEX 0, 0, 252, 218
+STYLE WS_CHILD | WS_VISIBLE | WS_CAPTION
+CAPTION "原則"
+FONT 9, "新細明體"
+BEGIN
+    GROUPBOX "移除原則 ", -1, 7, 7, 238, 204
+    AUTORADIOBUTTON "快速移除", IDC_QUICK_REMOVAL_BUTTON, 14, 28, 127, 10
+    AUTORADIOBUTTON "更佳效能", IDC_BETTER_PERFORMANCE_BUTTON, 14, 28, 127, 10
+END
