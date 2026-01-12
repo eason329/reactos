@@ -13,6 +13,8 @@ CAPTION "原則"
 FONT 9, "新細明體"
 BEGIN
     GROUPBOX "移除原則 ", -1, 7, 7, 238, 204
-    AUTORADIOBUTTON "快速移除", IDC_QUICK_REMOVAL_BUTTON, 14, 28, 127, 10
-    AUTORADIOBUTTON "更佳效能", IDC_BETTER_PERFORMANCE_BUTTON, 14, 28, 127, 10
+    AUTORADIOBUTTON "快速移除", IDC_QUICK_REMOVAL_BUTTON, 14, 20, 127, 10
+    LTEXT "Disables write caching on the device and in ReactOS, but you can disconnect the device safety without using the Safely Remove Hardware notification icon.", -1, 25, 32, 212, 30
+    AUTORADIOBUTTON "更佳效能", IDC_BETTER_PERFORMANCE_BUTTON, 14, 66, 127, 10
+    LTEXT "Enables write caching in ReactOS, but you must the Safely Remove Hardware notification icon to disconnect the device safely.", -1, 25, 78, 211, 30
 END

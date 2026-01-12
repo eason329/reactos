@@ -13,6 +13,8 @@ CAPTION "Políticas"
 FONT 8, "MS Shell Dlg"
 BEGIN
     GROUPBOX "Política de remoção", -1, 7, 7, 238, 204
-    AUTORADIOBUTTON "Remoção rápida", IDC_QUICK_REMOVAL_BUTTON, 14, 28, 127, 10
-    AUTORADIOBUTTON "Melhor desempenho", IDC_BETTER_PERFORMANCE_BUTTON, 14, 28, 127, 10
+    AUTORADIOBUTTON "Remoção rápida", IDC_QUICK_REMOVAL_BUTTON, 14, 20, 127, 10
+    LTEXT "Disables write caching on the device and in ReactOS, but you can disconnect the device safety without using the Safely Remove Hardware notification icon.", -1, 25, 32, 212, 30
+    AUTORADIOBUTTON "Melhor desempenho", IDC_BETTER_PERFORMANCE_BUTTON, 14, 66, 127, 10
+    LTEXT "Enables write caching in ReactOS, but you must the Safely Remove Hardware notification icon to disconnect the device safely.", -1, 25, 78, 212, 30
 END
