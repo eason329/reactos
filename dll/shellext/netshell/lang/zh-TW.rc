@@ -3,7 +3,7 @@
  * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2011 Elton Chung aka MfldElton <elton328@gmail.com>
- *              Copyright 2020-2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -171,7 +171,7 @@ BEGIN
     IDS_NET_DELETE "刪除"
     IDS_NET_RENAME "重新命名"
     IDS_NET_PROPERTIES "內容"
-    IDS_NET_OPEN_CONNECTIONS "Open Network Connections"
+    IDS_NET_OPEN_CONNECTIONS "開啟網路連線"
     IDS_FORMAT_BIT "%u Bit／秒"
     IDS_FORMAT_KBIT "%u KBit／秒"
     IDS_FORMAT_MBIT "%u MBit／秒"
@@ -184,14 +184,14 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_NETWORKINITTITLE "Network Install"
-    IDS_NETWORKINITSUBTITLE "Installs required networking components."
+    IDS_NETWORKINITTITLE "網路安裝"
+    IDS_NETWORKINITSUBTITLE "安裝必需的網路元件。"
     IDS_NETWORKSETTINGSTITLE "網路設定"
     IDS_NETWORKSETTINGSSUBTITLE "安裝用於連接到其他網路、電腦和網際網路的網路軟體。"
     IDS_NETWORKCOMPONENTTITLE "網路元件"
     IDS_NETWORKCOMPONENTSUBTITLE "判斷您的電腦使用了哪些網路元件。要安裝新的元件，請按［安裝］。"
     IDS_NETWORKDOMAINTITLE "工作群組或電腦網域"
-    IDS_NETWORKDOMAINSUBTITLE "網域是一組由網路管理員定義的電腦群組。工作群組是一組共同使用同一個工作群組名稱的電腦群組。"
+    IDS_NETWORKDOMAINSUBTITLE "指定這個電腦將會成為工作群組的一部分，還是成為網域的一部分。"
     IDS_REACTOS_SETUP "ReactOS 安裝程式"
     IDS_WZD_DOMAIN_NAME "除非您輸入網域或工作群組名稱，\n否則安裝程式無法繼續。"
 END

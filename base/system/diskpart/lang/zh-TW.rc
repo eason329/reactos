@@ -4,7 +4,7 @@
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
  *              Copyright 2018 Luo Yufan <njlyf2011@hotmail.com>
- *              Copyright 2020-2022 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2020-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -30,26 +30,26 @@ BEGIN
     IDS_ACTIVE_FAIL "\nDiskPart 無法把標記磁碟分割為使用中。\n請確認磁碟分割是有效的。\n"
     IDS_ACTIVE_SUCCESS "\nDiskPart 已標記磁碟分割為使用中。\n"
     IDS_ACTIVE_ALREADY "\n目前的磁碟分割已經標記為使用中。\n"
-    IDS_ACTIVE_NO_MBR "\nThe selected disk is not an MBR disk.\nThe ACTIVE command can only be used on an MBR disk.\n"
+    IDS_ACTIVE_NO_MBR "\n所選的磁碟不是一個 MBR 磁碟。\nACTIVE 命令只能在 MBR 磁碟上使用。\n"
 END
 
 /* ASSIGN command strings */
 STRINGTABLE
 BEGIN
-    IDS_ASSIGN_FAIL "\nDiskPart could not assign the drive letter or mount point.\nMake sure the drive letter or mount point is valid.\n"
-    IDS_ASSIGN_SUCCESS "\nDiskPart successfully assigned the drive letter or mount point.\n"
-    IDS_ASSIGN_ALREADY_ASSIGNED "\nThe specified letter has already been assigned to this drive.\n"
-    IDS_ASSIGN_INVALID_LETTER "\nThe letter you specified is not a valid volume letter.\n"
-    IDS_ASSIGN_NO_MORE_LETTER "\nThere are no free drive letters to assign to this volume.\nPlease free up a drive letter and try again.\n"
-    IDS_ASSIGN_SYSTEM_VOLUME "\nDiskPart cannot reassign the drive letter on a system, boot or pagefile volume.\n"
+    IDS_ASSIGN_FAIL "\nDiskPart 無法指派磁碟機代號或掛載點。\n請確定磁碟機代號或掛載點是有效的。\n"
+    IDS_ASSIGN_SUCCESS "\nDiskPart 成功指派了磁碟機代號或掛載點\n"
+    IDS_ASSIGN_ALREADY_ASSIGNED "\n指定的字符已經指派到這個磁碟了。\n"
+    IDS_ASSIGN_INVALID_LETTER "\n您所指定的字符不是一個有效的磁碟機代號。\n"
+    IDS_ASSIGN_NO_MORE_LETTER "\n現在沒有可指派到這個磁碟分割的磁碟機代號。\n請先釋放磁碟機代號，然後再試一次。\n"
+    IDS_ASSIGN_SYSTEM_VOLUME "\nDiskPart 無法在系統、開機或分頁檔案磁碟區上重新指派磁碟機代號。\n"
 END
 
 /* AUTOMOUNT command strings */
 STRINGTABLE
 BEGIN
-    IDS_AUTOMOUNT_ENABLED "\nAutomatic mounting of new volumes enabled.\n"
-    IDS_AUTOMOUNT_DISABLED "\nAutomatic mounting of new volumes disabled.\n"
-    IDS_AUTOMOUNT_SCRUBBED "\nDiskPart successfully scrubbed the mount point settings in the system.\n"
+    IDS_AUTOMOUNT_ENABLED "\n已啟用新磁碟區的自動掛載功能。\n"
+    IDS_AUTOMOUNT_DISABLED "\n已停用新磁碟區的自動掛載功能。\n"
+    IDS_AUTOMOUNT_SCRUBBED "\nDiskPart 成功清理了系統中的掛載點設定。\n"
 END
 
 STRINGTABLE
@@ -73,7 +73,7 @@ STRINGTABLE
 BEGIN
     IDS_CREATE_PARTITION_FAIL "\nDiskPart 無法建立指定的磁碟分割。\n"
     IDS_CREATE_PARTITION_SUCCESS "\nDiskPart 成功建立指定的磁碟分割。\n"
-    IDS_CREATE_PARTITION_INVALID_STYLE "\nLogical or extended partitions can not be created on a GPT disk.\nCreate a primary partition on a GPT disk instead.\n"
+    IDS_CREATE_PARTITION_INVALID_STYLE "\n無法在邏輯分割區或延伸分割區上建立 GPT 磁碟。\n請在主分割區上建立 GPT 磁碟。\n"
 END
 
 STRINGTABLE
@@ -126,7 +126,7 @@ STRINGTABLE
 BEGIN
     IDS_FORMAT_FAIL "\nDiskPart failed to format the selected volume.\n"
     IDS_FORMAT_SUCCESS "\nDiskPart successfully formatted the selected volume.\n"
-    IDS_FORMAT_PROGRESS "\r  %3lu percent completed"
+    IDS_FORMAT_PROGRESS "\r完成進度:  %3lu%%"
 END
 
 STRINGTABLE
@@ -154,10 +154,10 @@ BEGIN
     IDS_LIST_DISK_HEAD "  磁碟 ###   狀態      大小     可用    Dyn  Gpt\n"
     IDS_LIST_DISK_LINE "  --------  ----------  -------  -------  ---  ---\n"
     IDS_LIST_DISK_FORMAT "%c 磁碟 %-3lu   %-10s  %-7s  %-7s   %1s    %1s\n"
-    IDS_LIST_PARTITION_HEAD "  分區 ###       類型          大小     偏移量\n"
+    IDS_LIST_PARTITION_HEAD "  分割區 ###      類型          大小     偏移量\n"
     IDS_LIST_PARTITION_LINE "  -------------  ----------------  -------  -------\n"
     IDS_LIST_PARTITION_FORMAT "%c 磁碟分割 %2lu   %-16s  %-7s  %-7s\n"
-    IDS_LIST_PARTITION_NO_DISK "\n沒有可列出分區的磁碟。\n請選擇一個磁碟，再試一次。\n\n"
+    IDS_LIST_PARTITION_NO_DISK "\n沒有可列出分割區的磁碟。\n請選擇一個磁碟，再試一次。\n\n"
     IDS_LIST_PARTITION_NONE "\nThere are no partitions on this disk to show.\n"
     IDS_LIST_VOLUME_HEAD "  磁碟區 ###  Ltr  標籤         FS     類型        大小     狀態       資訊\n"
     IDS_LIST_VOLUME_LINE "  ----------  ---  -----------  -----  ----------  -------  ---------  --------\n"
@@ -167,8 +167,8 @@ END
 /* REMOVE command strings */
 STRINGTABLE
 BEGIN
-    IDS_REMOVE_FAIL "\nDiskPart could not remove the drive letter or mount point.\nMake sure the drive letter or mount point is valid.\n"
-    IDS_REMOVE_SUCCESS "\nDiskPart successfully removed the drive letter or mount point.\n"
+    IDS_REMOVE_FAIL "\nDiskPart 無法移除磁碟機代號或掛載點。\n請確定磁碟機代號或掛載點是有效的。\n"
+    IDS_REMOVE_SUCCESS "\nDiskPart 成功移除了磁碟機代號或掛載點。\n"
     IDS_REMOVE_NO_LETTER "\nThe selected volume has no letter or mount point to remove.\n"
     IDS_REMOVE_WRONG_LETTER "\nThe letter you specified is not assigned to that volume.\n"
 END
@@ -184,16 +184,16 @@ END
 STRINGTABLE
 BEGIN
     IDS_SELECT_NO_DISK "\n目前沒有選擇磁碟。\n請選擇一個磁碟，然後再試一次。\n\n"
-    IDS_SELECT_DISK "\n磁碟 %lu 現在是所選擇的磁碟。\n\n"
+    IDS_SELECT_DISK "\n磁碟 %lu 現在是您所選擇的磁碟。\n\n"
     IDS_SELECT_DISK_INVALID "\n無效的磁碟。\n\n"
     IDS_SELECT_DISK_ENUM_NO_START "\nNo disk enumeration started yet.\n\nNo disk is currently selected.\n\n"
     IDS_SELECT_DISK_ENUM_FINISHED "\nThe last disk has been enumerated.\n\nNo disk is currently selected.\n\n"
     IDS_SELECT_NO_PARTITION "\n目前選擇的磁碟沒有磁碟分割。\n請選擇一個磁碟，然後再試一次。\n\n"
-    IDS_SELECT_PARTITION "\n磁碟分割 %lu 現在是所選擇的磁碟分割。\n\n"
+    IDS_SELECT_PARTITION "\n磁碟分割 %lu 現在是您所選擇的磁碟分割。\n\n"
     IDS_SELECT_PARTITION_NO_DISK "\n沒有選擇要設定磁碟分割的磁碟。\n請選擇一個磁碟，然後再試一次。\n\n"
     IDS_SELECT_PARTITION_INVALID "\n無效的磁碟分割。\n\n"
     IDS_SELECT_NO_VOLUME "\n目前沒有選擇磁碟區。\n請選擇一個磁碟，然後再試一次。\n\n"
-    IDS_SELECT_VOLUME "\n磁碟區 %lu 現在是所選擇的磁碟區。\n\n"
+    IDS_SELECT_VOLUME "\n磁碟區 %lu 現在是您所選擇的磁碟區。\n\n"
     IDS_SELECT_VOLUME_INVALID "\n無效的磁碟區。\n\n"
 END
 
@@ -225,7 +225,7 @@ BEGIN
     IDS_INFO_VOLUME_BOOT "Boot"
     IDS_INFO_VOLUME_SYSTEM "System"
     IDS_INFO_VOLUME_HIDDEN "Hidden"
-    IDS_INFO_VOLUME_OFFLINE "Offline"
+    IDS_INFO_VOLUME_OFFLINE "離線"
 END
 
 /* CMD Messages for commands */
@@ -239,9 +239,9 @@ STRINGTABLE
 BEGIN
     IDS_HELP_ACTIVE                    "將所選的磁碟分割標記為使用中。\n"
     IDS_HELP_ADD                       "新增一個鏡像到一個簡單磁碟區。\n"
-    IDS_HELP_ASSIGN                    "分配一個磁碟機代號或掛接點到所選的磁碟區。\n"
+    IDS_HELP_ASSIGN                    "指派一個磁碟機代號或掛載點到所選的磁碟區。\n"
     IDS_HELP_ATTACH                    "附加的虛擬磁碟檔案。\n"
-    IDS_HELP_ATTRIBUTES                "操縱磁碟區或磁碟的屬性。\n"
+    IDS_HELP_ATTRIBUTES                "更改磁碟區或磁碟的屬性。\n"
     IDS_HELP_AUTOMOUNT                 "啟用和停用基本磁碟區的自動裝入。\n"
     IDS_HELP_BREAK                     "中斷一個鏡像組。\n"
     IDS_HELP_CLEAN                     "清除磁碟上的設定資訊或所有資訊。\n"
@@ -294,17 +294,17 @@ BEGIN
     IDS_HELP_ONLINE                    "把目前標記為離線的物件設為連線。\n"
     IDS_HELP_RECOVER                   "重新整理所選封裝中所有磁碟的狀態，\n              嘗試復原在無效封裝中的磁碟，並重新同步具有過時網狀\n              磁碟區或同位檢查資料的鏡像磁碟區和 RAID5 磁碟區。\n"
     IDS_HELP_REM                       "不做任何事。這是用來註解指令碼。\n"
-    IDS_HELP_REMOVE                    "移除磁碟區代號或掛接點的分配。\n"
-    IDS_HELP_REPAIR                    "以失敗的成員修復 RAID 5 磁碟區。\n"
+    IDS_HELP_REMOVE                    "移除磁碟區代號或掛載點的指派。\n"
+    IDS_HELP_REPAIR                    "修復含有損壞的成員磁碟的 RAID 5 磁碟區。\n"
     IDS_HELP_RESCAN                    "重新掃描電腦，查找磁碟和磁碟區。\n"
     IDS_HELP_RETAIN                    "在簡單磁碟區下放置一個保存磁碟分割。\n"
     IDS_HELP_SAN                       "顯示或設定目前開機 OS 的 SAN 原則。\n"
 
-    IDS_HELP_SELECT                    "轉移焦點到另一個物件。\n"
-    IDS_HELP_SELECT_DISK               "轉移焦點到磁碟。\n"
-    IDS_HELP_SELECT_PARTITION          "轉移焦點到磁碟分割。\n"
-    IDS_HELP_SELECT_VOLUME             "轉移焦點到磁碟區。\n"
-    IDS_HELP_SELECT_VDISK              "轉移焦點到虛擬磁碟。\n"
+    IDS_HELP_SELECT                    "選取另一個物件作為目標。\n"
+    IDS_HELP_SELECT_DISK               "將選取目標切換至另一個磁碟。\n"
+    IDS_HELP_SELECT_PARTITION          "將選取目標切換至另一個磁碟分割。\n"
+    IDS_HELP_SELECT_VOLUME             "將選取目標切換至另一個磁碟區。\n"
+    IDS_HELP_SELECT_VDISK              "將選取目標切換至另一個虛擬磁碟。\n"
 
     IDS_HELP_SETID                     "更改磁碟分割類型。\n"
     IDS_HELP_SHRINK                    "縮小所選磁碟區的大小。\n"
@@ -325,7 +325,7 @@ END
 /* Bus type */
 STRINGTABLE
 BEGIN
-    IDS_BUSTYPE_UNKNOWN "Unknown"
+    IDS_BUSTYPE_UNKNOWN "不明"
     IDS_BUSTYPE_SCSI    "SCSI"
     IDS_BUSTYPE_ATAPI   "ATAPI"
     IDS_BUSTYPE_ATA     "ATA"
@@ -346,7 +346,7 @@ BEGIN
     IDS_BUSTYPE_SCM     "SCM"
     IDS_BUSTYPE_UFS     "UFS"
     IDS_BUSTYPE_NVMEOF  "NVMEOF"
-    IDS_BUSTYPE_OTHER   "Other"
+    IDS_BUSTYPE_OTHER   "其他"
 END
 
 STRINGTABLE
@@ -356,16 +356,16 @@ BEGIN
     IDS_PARTITION_TYPE_PRIMARY "Primary"
     IDS_PARTITION_TYPE_RESERVED "Reserved"
     IDS_PARTITION_TYPE_SYSTEM "System"
-    IDS_PARTITION_TYPE_UNKNOWN "Unknown"
+    IDS_PARTITION_TYPE_UNKNOWN "不明"
     IDS_PARTITION_TYPE_UNUSED "Unused"
 END
 
 STRINGTABLE
 BEGIN
     IDS_VOLUME_TYPE_DVD "DVD"
-    IDS_VOLUME_TYPE_PARTITION "Partition"
-    IDS_VOLUME_TYPE_REMOVABLE "Removable"
-    IDS_VOLUME_TYPE_UNKNOWN "Unknown"
+    IDS_VOLUME_TYPE_PARTITION "分割區"
+    IDS_VOLUME_TYPE_REMOVABLE "卸除式"
+    IDS_VOLUME_TYPE_UNKNOWN "不明"
 END
 
 STRINGTABLE
