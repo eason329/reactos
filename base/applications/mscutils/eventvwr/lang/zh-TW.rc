@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
- *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2021-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -143,7 +143,7 @@ BEGIN
     LTEXT "當記錄檔大小達到最大時：", IDC_STATIC, 17, 140, 219, 8
     AUTORADIOBUTTON "按需要覆寫事件(&O)", IDC_OVERWRITE_AS_NEEDED, 17, 155, 219, 10, WS_GROUP | WS_TABSTOP
     AUTORADIOBUTTON "覆寫舊於指定時間的事件(&V)", IDC_OVERWRITE_OLDER_THAN, 17, 168, 102, 10
-    AUTORADIOBUTTON "不要覆寫事件(&N)\n（手動清除記錄）", IDC_NO_OVERWRITE, 17, 180, 143, 20, BS_MULTILINE | WS_TABSTOP
+    AUTORADIOBUTTON "不要覆寫事件(&N)\n (手動清除記錄)", IDC_NO_OVERWRITE, 17, 180, 143, 20, BS_MULTILINE | WS_TABSTOP
     EDITTEXT IDC_EDIT_EVENTS_AGE, 122, 165, 35, 14, ES_LEFT | ES_NUMBER | WS_GROUP
     CONTROL "", IDC_UPDOWN_EVENTS_AGE, UPDOWN_CLASS, UDS_SETBUDDYINT | UDS_ALIGNRIGHT |
             UDS_AUTOBUDDY | UDS_ARROWKEYS, 157, 165, 10, 14
@@ -168,8 +168,8 @@ BEGIN
     IDS_CLEAREVENTS_MSG "您要在清除之前儲存此事件記錄嗎？"
     IDS_RESTOREDEFAULTS "您要這個記錄的所有設定還原至預設值嗎？"
     IDS_EVENTSTRINGIDNOTFOUND "找不到來源（%s）中的事件 ID（%lu）的描述。本地電腦可能沒有顯示來自遠端電腦消息所必需的註冊表資訊或消息 DLL 檔。\n\n下列資訊是部分事件︰\n\n"
-    IDS_CONTFROMBEGINNING "You have reached the end of the event log. Do you want to continue from the beginning?"
-    IDS_CONTFROMEND "You have reached the beginning of the event log. Do you want to continue from the end?"
+    IDS_CONTFROMBEGINNING "您已到達事件記錄的結尾，您是否要由開頭繼續？"
+    IDS_CONTFROMEND "您已到達事件記錄的開頭，您是否要由結尾繼續？"
 END
 
 STRINGTABLE
