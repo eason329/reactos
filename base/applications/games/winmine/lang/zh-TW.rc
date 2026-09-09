@@ -1,10 +1,18 @@
+/*
+ * PROJECT:     ReactOS WineMine
+ * LICENSE:     LGPL-2.1-or-later (https://spdx.org/licenses/LGPL-2.1-or-later)
+ * PURPOSE:     Chinese (Traditional) resource file
+ * TRANSLATORS: Copyright 2011 Elton Chung aka MfldElton <elton328@gmail.com>
+ *              Copyright 2021-2026 Chan Chilung <eason066@gmail.com>
+ */
+
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 
 STRINGTABLE
 BEGIN
     IDS_APPNAME "Wine 地雷"
-    IDS_NOBODY "無人"
-    IDS_ABOUT "Copyright 2000 Joshua Thielen"
+    IDS_NOBODY "無名氏"
+    IDS_ABOUT "版權所有 2000 Joshua Thielen"
 END
 
 IDM_WINEMINE MENU
@@ -14,12 +22,12 @@ BEGIN
         MENUITEM "新遊戲(&N)\tF2", IDM_NEW
         MENUITEM SEPARATOR
         MENUITEM "標出問題(&M)", IDM_MARKQ
-        MENUITEM "Sound", IDM_SOUND
+        MENUITEM "聲音(&S)", IDM_SOUND
         MENUITEM SEPARATOR
         MENUITEM "初學者(&B)", IDM_BEGINNER
         MENUITEM "高級(&A)", IDM_ADVANCED
         MENUITEM "專家(&E)", IDM_EXPERT
-        MENUITEM "自訂(&C)", IDM_CUSTOM
+        MENUITEM "自訂(&C)...", IDM_CUSTOM
         MENUITEM SEPARATOR
         MENUITEM "結束(&X)\tAlt+X", IDM_EXIT
     END
