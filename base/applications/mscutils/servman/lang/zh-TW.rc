@@ -3,7 +3,7 @@
  * LICENSE:     GPL-2.0-or-later (https://spdx.org/licenses/GPL-2.0-or-later)
  * PURPOSE:     Chinese (Traditional) resource file
  * TRANSLATORS: Copyright 2016 Henry Tang Ih <henrytang2@hotmail.com>
- *              Copyright 2021 Chan Chilung <eason066@gmail.com>
+ *              Copyright 2021-2026 Chan Chilung <eason066@gmail.com>
  */
 
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
@@ -146,7 +146,7 @@ BEGIN
     LTEXT "程式(&P)：", IDC_RUN_TEXT1, 14, 121, 168, 8
     EDITTEXT IDC_PROGRAM, 14, 131, 165, 14
     PUSHBUTTON "瀏覽(&B)...", IDC_BROWSE_PROGRAM, 180, 131, 58, 14
-    LTEXT "&Command line parameters:", IDC_RUN_TEXT2, 14, 155, 108, 8
+    LTEXT "命令列參數(&C)：", IDC_RUN_TEXT2, 14, 155, 108, 8
     EDITTEXT IDC_PARAMETERS, 128, 152, 110, 14
     AUTOCHECKBOX "Append fail count to &end of command line (/fail=%1%)", IDC_ADD_FAILCOUNT, 14, 171, 219, 10, WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_TOP | BS_MULTILINE
     PUSHBUTTON "電腦重新啟動選項(&R)...", IDC_RESTART_OPTIONS, 116, 197, 129, 14
@@ -164,8 +164,8 @@ BEGIN
             WS_VISIBLE | WS_TABSTOP | TVS_HASBUTTONS | TVS_HASLINES |
             TVS_LINESATROOT | TVS_DISABLEDRAGDROP, 8, 151, 236, 68
     LTEXT "一些服務依賴於其他服務，系統驅動程式和載入順序組。如果一個系統元件被停止或者沒有正確運行，被其依賴的服務也會被影響。", IDC_STATIC, 8, 7, 238, 26
-    LTEXT "這個服務依賴於以下的元件：", IDC_STATIC, 8, 57, 236, 9
-    LTEXT "The following components depend on this service:", IDC_STATIC, 8, 140, 236, 9
+    LTEXT "這個服務依賴於以下的元件(&T)：", IDC_STATIC, 8, 57, 236, 9
+    LTEXT "以下元件依賴於這個服務(&F)：", IDC_STATIC, 8, 140, 236, 9
     LTEXT "", IDC_DEPEND_SERVICE, 8, 38, 236, 13
 END
 
