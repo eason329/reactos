@@ -48,7 +48,7 @@ END
 STRINGTABLE
 BEGIN
     IDS_SPI_NAME "連環新接龍"
-    IDS_SPI_ABOUT "連環新接龍 作者：Gregor Schneider\n\n使用 CardLib 版本 1.0"
+    IDS_SPI_ABOUT "連環新接龍 作者：Gregor Schneider\n使用 CardLib 版本 1.0"
     IDS_SPI_QUIT "退出目前遊戲？"
     IDS_SPI_WIN "恭喜您，您贏了！"
     IDS_SPI_DEAL "再玩一次？"
