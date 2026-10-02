@@ -23,7 +23,7 @@
 #include <winbase.h>
 #include <shlobj.h>
 #include <shlwapi.h>
-
+#include <winnls.h>
 
 #include <atlbase.h>
 #include <atlcom.h>
