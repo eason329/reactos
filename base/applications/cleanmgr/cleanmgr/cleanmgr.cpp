@@ -185,15 +185,22 @@ struct CCleanMgrProperties :
         CStringW tmp;
         WCHAR ByteSize[100];
         StrFormatByteSizeW(m_TotalSpaceUsed, ByteSize, _countof(ByteSize));
+        
+        if (tmp.LoadString(IDS_TOTAL_CLEANABLE_CAPTION))
+        {
+            int posS = tmp.Find(L"%s");
+            int posD = tmp.Find(L"%d");
 
-        if (PRIMARYLANGID(GetUserDefaultUILanguage()) == LANG_CHINESE || PRIMARYLANGID(GetSystemDefaultUILanguage()) == LANG_CHINESE)
-        {
-            tmp.Format(IDS_TOTAL_CLEANABLE_CAPTION, m_Drive, ByteSize);
+            if (posS != -1 && posD != -1 && posS < posD)
+            {
+                tmp.Format(IDS_TOTAL_CLEANABLE_CAPTION, m_Drive, ByteSize);
+            }
+            else
+            {
+                tmp.Format(IDS_TOTAL_CLEANABLE_CAPTION, ByteSize, m_Drive);
+            }
         }
-        else
-        {
-            tmp.Format(IDS_TOTAL_CLEANABLE_CAPTION, ByteSize, m_Drive);
-        }
+        
         SetDlgItemText(IDC_TOTAL_CLEANABLE, tmp);
 
         DWORDLONG SelectedGained = 0;
