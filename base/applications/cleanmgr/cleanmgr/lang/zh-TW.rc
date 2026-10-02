@@ -10,7 +10,7 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
 STRINGTABLE
 BEGIN
     IDS_PROPERTIES_MAIN_TITLE "(%c:) 磁碟清理"
-    IDS_TOTAL_CLEANABLE_CAPTION "您可以使用 磁碟清理，在磁碟 (%c:) 上釋放最多 %s 的磁碟空間。"
+    IDS_TOTAL_CLEANABLE_CAPTION "您可以使用 磁碟清理，將最多 %s 的磁碟空間從磁碟 (%c:) 中釋放。"
     IDS_DISK_CLEANUP "磁碟清理"
     IDS_CONFIRM_DELETE "您確定要永久刪除這些檔案？"
     IDS_CALCULATING "磁碟清理正在計算可以在 (%s) 上釋放的空間。"
@@ -25,7 +25,7 @@ CAPTION "磁碟清理"
 FONT 9, "新細明體", 400, 0, 0x0
 BEGIN
     CONTROL         "",IDC_DISKICON,"Static",SS_ICON,6,6,20,20
-    LTEXT           "您可以使用 磁碟清理，在磁碟 C 上釋放最多 0.0MB 的磁碟空間。",IDC_TOTAL_CLEANABLE,36,6,192,18
+    LTEXT           "您可以使用 磁碟清理，將最多 0.0MB 的磁碟空間從磁碟 C: 中釋放。",IDC_TOTAL_CLEANABLE,36,6,192,18
     LTEXT           "要刪除的檔案：",IDC_STATIC,6,30,222,8
     CONTROL         "",IDC_HANDLERLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,6,42,222,66
     LTEXT           "可取得的磁碟空間總數：",IDC_STATIC,6,114,144,8
